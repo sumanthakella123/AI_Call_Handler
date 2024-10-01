@@ -1,0 +1,1826 @@
+2024-07-28 16:26:40,866 - __main__ - INFO - Received /voice request
+2024-07-28 16:26:40,866 - __main__ - DEBUG - Initial message: Thank you for calling BMW Dealership. I'm Lucy. How can I assist you today?
+2024-07-28 16:26:41,063 - __main__ - DEBUG - Initial message handling time: 0.197404146194458 seconds
+2024-07-28 16:26:41,178 - __main__ - INFO - Received /gather request
+2024-07-28 16:29:22,480 - __main__ - INFO - Received /voice request
+2024-07-28 16:29:22,482 - __main__ - DEBUG - Initial message: Thank you for calling BMW Dealership. I'm Lucy. How can I assist you today?
+2024-07-28 16:29:25,006 - __main__ - DEBUG - Initial message handling time: 2.525191068649292 seconds
+2024-07-28 16:29:25,182 - __main__ - INFO - Received /stream_audio request for file: 166483e4-bb2f-4e33-baa8-cf817a0d0a1c_initial_message.mp3
+2024-07-28 16:29:30,137 - __main__ - INFO - Received /gather request
+2024-07-28 16:31:32,222 - __main__ - INFO - Received /voice request
+2024-07-28 16:31:32,222 - __main__ - DEBUG - Initial message: Thank you for calling BMW Dealership. I'm Lucy. How can I assist you today?
+2024-07-28 16:31:35,034 - __main__ - DEBUG - Initial message handling time: 2.812472105026245 seconds
+2024-07-28 16:31:35,204 - __main__ - INFO - Received /stream_audio request for file: f9e812c3-2992-485f-8b98-11839fcd1ac5_initial_message.mp3
+2024-07-28 16:31:39,476 - __main__ - INFO - Received /gather request
+2024-07-28 16:51:29,685 - __main__ - INFO - Received /voice request
+2024-07-28 16:51:29,686 - __main__ - DEBUG - Initial message: Thank you for calling BMW Dealership. I'm Lucy. How can I assist you today?
+2024-07-28 16:51:29,686 - __main__ - ERROR - Error in /voice: module 'elevenlabs_tts' has no attribute 'text_to_speech'
+Traceback (most recent call last):
+  File "C:\Users\91807\Desktop\0_call_assist\app.py", line 64, in voice
+    audio_content = elevenlabs_tts.text_to_speech(initial_message)
+AttributeError: module 'elevenlabs_tts' has no attribute 'text_to_speech'
+2024-07-28 16:53:10,266 - __main__ - INFO - Received /voice request
+2024-07-28 16:53:10,267 - __main__ - DEBUG - Initial message: Thank you for calling BMW Dealership. I'm Lucy. How can I assist you today?
+2024-07-28 16:53:13,463 - __main__ - DEBUG - Initial message handling time: 3.1960458755493164 seconds
+2024-07-28 16:53:13,681 - __main__ - INFO - Received /stream_audio request for file: 1e61199c-0f63-40fb-82e7-bb6189b884a7_initial_message.mp3
+2024-07-28 16:53:19,036 - __main__ - INFO - Received /gather request
+2024-07-28 16:53:25,402 - __main__ - INFO - Received /process_speech request
+2024-07-28 16:53:25,404 - __main__ - DEBUG - Speech received: Can you tell me about BMW car?
+2024-07-28 16:53:25,404 - __main__ - DEBUG - Speech recognition time: 0.0015387535095214844 seconds
+2024-07-28 16:53:25,916 - __main__ - DEBUG - Transcription time: 0.5119342803955078 seconds
+2024-07-28 16:53:28,141 - __main__ - DEBUG - Handle transcription time: 2.225620985031128 seconds
+2024-07-28 16:53:31,875 - __main__ - DEBUG - Total process_speech time: 6.4729883670806885 seconds
+2024-07-28 16:53:32,142 - __main__ - INFO - Received /stream_audio request for file: 1e61199c-0f63-40fb-82e7-bb6189b884a7_response.mp3
+2024-07-28 16:53:43,319 - __main__ - INFO - Received /gather request
+2024-07-28 16:53:48,937 - __main__ - INFO - Received /process_speech request
+2024-07-28 16:53:48,937 - __main__ - DEBUG - Speech received: Yeah lock models.
+2024-07-28 16:53:48,937 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-07-28 16:53:49,445 - __main__ - DEBUG - Transcription time: 0.5079631805419922 seconds
+2024-07-28 16:53:51,782 - __main__ - DEBUG - Handle transcription time: 2.3363590240478516 seconds
+2024-07-28 16:53:56,658 - __main__ - DEBUG - Total process_speech time: 7.720941066741943 seconds
+2024-07-28 16:53:57,025 - __main__ - INFO - Received /stream_audio request for file: 1e61199c-0f63-40fb-82e7-bb6189b884a7_response.mp3
+2024-07-28 16:54:09,732 - __main__ - INFO - Received /gather request
+2024-07-28 16:57:00,838 - __main__ - INFO - Received /voice request
+2024-07-28 16:57:00,839 - __main__ - DEBUG - Initial message: Thank you for calling BMW Dealership. I'm Lucy. How can I assist you today?
+2024-07-28 16:57:03,570 - __main__ - DEBUG - Initial message handling time: 2.7310702800750732 seconds
+2024-07-28 16:57:03,741 - __main__ - INFO - Received /stream_audio request for file: fcff0e68-892c-4319-b120-3f566428d72c_initial_message.mp3
+2024-07-28 16:57:09,139 - __main__ - INFO - Received /gather request
+2024-07-28 16:57:16,712 - __main__ - INFO - Received /process_speech request
+2024-07-28 16:57:16,716 - __main__ - DEBUG - Speech received: Hey, can you tell me about your latest BMW car?
+2024-07-28 16:57:16,716 - __main__ - DEBUG - Speech recognition time: 0.0024509429931640625 seconds
+2024-07-28 16:57:17,229 - __main__ - DEBUG - Transcription time: 0.512814998626709 seconds
+2024-07-28 16:57:19,361 - __main__ - DEBUG - Response generation time: 2.1307928562164307 seconds
+2024-07-28 16:57:23,955 - __main__ - DEBUG - TTS generation time: 4.593811988830566 seconds
+2024-07-28 16:57:23,970 - __main__ - DEBUG - Handle transcription time: 6.740248203277588 seconds
+2024-07-28 16:57:23,970 - __main__ - DEBUG - Total process_speech time: 7.257054567337036 seconds
+2024-07-28 16:57:24,168 - __main__ - INFO - Received /stream_audio request for file: fcff0e68-892c-4319-b120-3f566428d72c_response.mp3
+2024-07-28 16:57:38,649 - __main__ - INFO - Received /gather request
+2024-08-02 15:06:02,315 - __main__ - INFO - Received /voice request
+2024-08-02 15:06:02,315 - __main__ - DEBUG - Initial message: Thank you for calling BMW Dealership. I'm Lucy. How can I assist you today?
+2024-08-02 15:06:03,440 - __main__ - ERROR - Error in /voice: status_code: 401, body: {'detail': {'status': 'quota_exceeded', 'message': 'This request exceeds your quota. You have 11 characters remaining, while 75 characters are required for this request.', 'character_used': 10064, 'character_limit': 10000}}
+Traceback (most recent call last):
+  File "C:\Users\91807\Desktop\0_call_assist\app.py", line 63, in voice
+    audio_content = elevenlabs_tts.text_to_speech(initial_message)
+  File "C:\Users\91807\Desktop\0_call_assist\elevenlabs_tts.py", line 17, in text_to_speech
+    audio_bytes = b"".join(list(audio))
+  File "C:\Users\91807\AppData\Local\Programs\Python\Python38\lib\site-packages\elevenlabs\text_to_speech\client.py", line 189, in convert
+    raise ApiError(status_code=_response.status_code, body=_response_json)
+elevenlabs.core.api_error.ApiError: status_code: 401, body: {'detail': {'status': 'quota_exceeded', 'message': 'This request exceeds your quota. You have 11 characters remaining, while 75 characters are required for this request.', 'character_used': 10064, 'character_limit': 10000}}
+2024-08-02 15:07:24,019 - __main__ - INFO - Received /voice request
+2024-08-02 15:07:24,019 - __main__ - DEBUG - Initial message: Thank you for calling BMW Dealership. I'm Lucy. How can I assist you today?
+2024-08-02 15:07:26,775 - __main__ - DEBUG - Initial message handling time: 2.755490303039551 seconds
+2024-08-02 15:07:26,960 - __main__ - INFO - Received /stream_audio request for file: b62ec070-9fcd-401f-b5a9-637762f3c61e_initial_message.mp3
+2024-08-02 15:07:32,332 - __main__ - INFO - Received /gather request
+2024-08-02 15:07:36,438 - __main__ - INFO - Received /process_speech request
+2024-08-02 15:07:36,455 - __main__ - DEBUG - Speech received: Hey, I wandered the book. Anafi.
+2024-08-02 15:07:36,455 - __main__ - DEBUG - Speech recognition time: 0.016373395919799805 seconds
+2024-08-02 15:07:36,968 - __main__ - DEBUG - Transcription time: 0.5130789279937744 seconds
+2024-08-02 15:07:36,968 - __main__ - ERROR - Error in handle_speech_transcription: module 'gpt4o_mini_integration' has no attribute 'generate_response_with_context'
+Traceback (most recent call last):
+  File "C:\Users\91807\Desktop\0_call_assist\app.py", line 108, in handle_speech_transcription
+    response_text = gpt4o_mini_integration.generate_response_with_context(speech_transcription, conversation_history)
+AttributeError: module 'gpt4o_mini_integration' has no attribute 'generate_response_with_context'
+2024-08-02 15:07:36,971 - __main__ - DEBUG - Handle transcription time: 0.0025382041931152344 seconds
+2024-08-02 15:07:36,971 - __main__ - DEBUG - Total process_speech time: 0.5333366394042969 seconds
+2024-08-02 15:07:40,823 - __main__ - INFO - Received /gather request
+2024-08-02 15:07:48,407 - __main__ - INFO - Received /process_speech request
+2024-08-02 15:07:48,409 - __main__ - DEBUG - Speech received: So I wanted to book an appointment.
+2024-08-02 15:07:48,409 - __main__ - DEBUG - Speech recognition time: 0.000926971435546875 seconds
+2024-08-02 15:07:48,916 - __main__ - DEBUG - Transcription time: 0.5075626373291016 seconds
+2024-08-02 15:07:48,917 - __main__ - ERROR - Error in handle_speech_transcription: module 'gpt4o_mini_integration' has no attribute 'generate_response_with_context'
+Traceback (most recent call last):
+  File "C:\Users\91807\Desktop\0_call_assist\app.py", line 108, in handle_speech_transcription
+    response_text = gpt4o_mini_integration.generate_response_with_context(speech_transcription, conversation_history)
+AttributeError: module 'gpt4o_mini_integration' has no attribute 'generate_response_with_context'
+2024-08-02 15:07:48,919 - __main__ - DEBUG - Handle transcription time: 0.0025739669799804688 seconds
+2024-08-02 15:07:48,919 - __main__ - DEBUG - Total process_speech time: 0.5110635757446289 seconds
+2024-08-02 15:07:52,739 - __main__ - INFO - Received /gather request
+2024-08-02 15:07:58,230 - __main__ - INFO - Received /process_speech request
+2024-08-02 15:07:58,230 - __main__ - DEBUG - Speech received: Anil Kapoor
+2024-08-02 15:07:58,230 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-08-02 15:07:58,741 - __main__ - DEBUG - Transcription time: 0.5117130279541016 seconds
+2024-08-02 15:07:58,741 - __main__ - ERROR - Error in handle_speech_transcription: module 'gpt4o_mini_integration' has no attribute 'generate_response_with_context'
+Traceback (most recent call last):
+  File "C:\Users\91807\Desktop\0_call_assist\app.py", line 108, in handle_speech_transcription
+    response_text = gpt4o_mini_integration.generate_response_with_context(speech_transcription, conversation_history)
+AttributeError: module 'gpt4o_mini_integration' has no attribute 'generate_response_with_context'
+2024-08-02 15:07:58,741 - __main__ - DEBUG - Handle transcription time: 0.0 seconds
+2024-08-02 15:07:58,741 - __main__ - DEBUG - Total process_speech time: 0.5117130279541016 seconds
+2024-08-02 15:08:02,549 - __main__ - INFO - Received /gather request
+2024-08-02 15:09:36,284 - __main__ - INFO - Received /voice request
+2024-08-02 15:09:36,284 - __main__ - DEBUG - Initial message: Thank you for calling BMW Dealership. I'm Lucy. How can I assist you today?
+2024-08-02 15:09:39,711 - __main__ - DEBUG - Initial message handling time: 3.426452159881592 seconds
+2024-08-02 15:09:39,891 - __main__ - INFO - Received /stream_audio request for file: 41a0401c-821c-4efc-9db7-8f3c1a351d6a_initial_message.mp3
+2024-08-02 15:09:45,355 - __main__ - INFO - Received /gather request
+2024-08-02 15:09:48,894 - __main__ - INFO - Received /process_speech request
+2024-08-02 15:09:48,894 - __main__ - DEBUG - Speech received: I wonder the book an appointment.
+2024-08-02 15:09:48,894 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-08-02 15:09:49,403 - __main__ - DEBUG - Transcription time: 0.5088238716125488 seconds
+2024-08-02 15:09:49,855 - __main__ - DEBUG - Response generation time: 0.45134878158569336 seconds
+2024-08-02 15:09:50,283 - __main__ - ERROR - Error in handle_speech_transcription: status_code: None, body: Text must be a string when stream is False.
+Traceback (most recent call last):
+  File "C:\Users\91807\Desktop\0_call_assist\app.py", line 117, in handle_speech_transcription
+    audio_content = elevenlabs_tts.text_to_speech(response_text)
+  File "C:\Users\91807\Desktop\0_call_assist\elevenlabs_tts.py", line 11, in text_to_speech
+    audio = client.generate(
+  File "C:\Users\91807\AppData\Local\Programs\Python\Python38\lib\site-packages\elevenlabs\client.py", line 223, in generate
+    raise ApiError(body="Text must be a string when stream is False.")
+elevenlabs.core.api_error.ApiError: status_code: None, body: Text must be a string when stream is False.
+2024-08-02 15:09:50,302 - __main__ - DEBUG - Handle transcription time: 0.8983075618743896 seconds
+2024-08-02 15:09:50,302 - __main__ - DEBUG - Total process_speech time: 1.4076368808746338 seconds
+2024-08-02 15:09:54,150 - __main__ - INFO - Received /gather request
+2024-08-02 15:11:35,965 - __main__ - INFO - Received /voice request
+2024-08-02 15:11:35,965 - __main__ - DEBUG - Initial message: Thank you for calling BMW Dealership. I'm Lucy. How can I assist you today?
+2024-08-02 15:11:39,077 - __main__ - DEBUG - Initial message handling time: 3.1125130653381348 seconds
+2024-08-02 15:11:39,270 - __main__ - INFO - Received /stream_audio request for file: 3406a695-45cd-4858-8959-8007e87c7e5e_initial_message.mp3
+2024-08-02 15:11:44,580 - __main__ - INFO - Received /gather request
+2024-08-02 15:11:48,473 - __main__ - INFO - Received /process_speech request
+2024-08-02 15:11:48,478 - __main__ - DEBUG - Speech received: Hey, I want you to book an appointment.
+2024-08-02 15:11:48,478 - __main__ - DEBUG - Speech recognition time: 0.004532575607299805 seconds
+2024-08-02 15:11:48,987 - __main__ - DEBUG - Transcription time: 0.5097565650939941 seconds
+2024-08-02 15:11:49,586 - __main__ - DEBUG - Response generation time: 0.5989422798156738 seconds
+2024-08-02 15:11:50,480 - __main__ - ERROR - Error in handle_speech_transcription: status_code: None, body: Text must be a string when stream is False.
+Traceback (most recent call last):
+  File "C:\Users\91807\Desktop\0_call_assist\app.py", line 117, in handle_speech_transcription
+    audio_content = elevenlabs_tts.text_to_speech(response_text)
+  File "C:\Users\91807\Desktop\0_call_assist\elevenlabs_tts.py", line 11, in text_to_speech
+    audio = client.generate(
+  File "C:\Users\91807\AppData\Local\Programs\Python\Python38\lib\site-packages\elevenlabs\client.py", line 223, in generate
+    raise ApiError(body="Text must be a string when stream is False.")
+elevenlabs.core.api_error.ApiError: status_code: None, body: Text must be a string when stream is False.
+2024-08-02 15:11:50,496 - __main__ - DEBUG - Handle transcription time: 1.5082104206085205 seconds
+2024-08-02 15:11:50,496 - __main__ - DEBUG - Total process_speech time: 2.023015022277832 seconds
+2024-08-02 15:11:54,311 - __main__ - INFO - Received /gather request
+2024-08-02 15:12:01,541 - __main__ - INFO - Received /process_speech request
+2024-08-02 15:12:01,542 - __main__ - DEBUG - Speech received: I want you to book an appointment.
+2024-08-02 15:12:01,542 - __main__ - DEBUG - Speech recognition time: 0.0014390945434570312 seconds
+2024-08-02 15:12:02,051 - __main__ - DEBUG - Transcription time: 0.5091335773468018 seconds
+2024-08-02 15:12:02,250 - __main__ - DEBUG - Response generation time: 0.19858264923095703 seconds
+2024-08-02 15:12:02,686 - __main__ - ERROR - Error in handle_speech_transcription: status_code: None, body: Text must be a string when stream is False.
+Traceback (most recent call last):
+  File "C:\Users\91807\Desktop\0_call_assist\app.py", line 117, in handle_speech_transcription
+    audio_content = elevenlabs_tts.text_to_speech(response_text)
+  File "C:\Users\91807\Desktop\0_call_assist\elevenlabs_tts.py", line 11, in text_to_speech
+    audio = client.generate(
+  File "C:\Users\91807\AppData\Local\Programs\Python\Python38\lib\site-packages\elevenlabs\client.py", line 223, in generate
+    raise ApiError(body="Text must be a string when stream is False.")
+elevenlabs.core.api_error.ApiError: status_code: None, body: Text must be a string when stream is False.
+2024-08-02 15:12:02,707 - __main__ - DEBUG - Handle transcription time: 0.655616044998169 seconds
+2024-08-02 15:12:02,708 - __main__ - DEBUG - Total process_speech time: 1.166717767715454 seconds
+2024-08-02 15:12:06,484 - __main__ - INFO - Received /gather request
+2024-08-02 15:12:14,444 - __main__ - INFO - Received /process_speech request
+2024-08-02 15:12:14,450 - __main__ - DEBUG - Speech received: Hey, I want you to.
+2024-08-02 15:12:14,450 - __main__ - DEBUG - Speech recognition time: 0.0022482872009277344 seconds
+2024-08-02 15:12:14,960 - __main__ - DEBUG - Transcription time: 0.5099799633026123 seconds
+2024-08-02 15:12:15,172 - __main__ - DEBUG - Response generation time: 0.21242070198059082 seconds
+2024-08-02 15:12:16,008 - __main__ - ERROR - Error in handle_speech_transcription: status_code: None, body: Text must be a string when stream is False.
+Traceback (most recent call last):
+  File "C:\Users\91807\Desktop\0_call_assist\app.py", line 117, in handle_speech_transcription
+    audio_content = elevenlabs_tts.text_to_speech(response_text)
+  File "C:\Users\91807\Desktop\0_call_assist\elevenlabs_tts.py", line 11, in text_to_speech
+    audio = client.generate(
+  File "C:\Users\91807\AppData\Local\Programs\Python\Python38\lib\site-packages\elevenlabs\client.py", line 223, in generate
+    raise ApiError(body="Text must be a string when stream is False.")
+elevenlabs.core.api_error.ApiError: status_code: None, body: Text must be a string when stream is False.
+2024-08-02 15:12:16,019 - __main__ - DEBUG - Handle transcription time: 1.0593020915985107 seconds
+2024-08-02 15:12:16,020 - __main__ - DEBUG - Total process_speech time: 1.5726332664489746 seconds
+2024-08-02 15:12:18,111 - __main__ - INFO - Received /gather request
+2024-08-02 15:15:49,386 - __main__ - INFO - Received /voice request
+2024-08-02 15:15:49,386 - __main__ - DEBUG - Initial message: Thank you for calling BMW Dealership. I'm Lucy. How can I assist you today?
+2024-08-02 15:15:52,057 - __main__ - DEBUG - Initial message handling time: 2.671398639678955 seconds
+2024-08-02 15:15:52,217 - __main__ - INFO - Received /stream_audio request for file: 64f18a97-11d1-4779-a76a-73fb4a2be7b1_initial_message.mp3
+2024-08-02 15:15:57,363 - __main__ - INFO - Received /gather request
+2024-08-02 15:16:02,184 - __main__ - INFO - Received /process_speech request
+2024-08-02 15:16:02,188 - __main__ - DEBUG - Speech received: I want
+2024-08-02 15:16:02,188 - __main__ - DEBUG - Speech recognition time: 0.004530668258666992 seconds
+2024-08-02 15:16:02,688 - __main__ - DEBUG - Transcription time: 0.5003182888031006 seconds
+2024-08-02 15:16:03,100 - __main__ - DEBUG - Response generation time: 0.4114532470703125 seconds
+2024-08-02 15:16:03,746 - __main__ - ERROR - Error in handle_speech_transcription: status_code: None, body: Text must be a string when stream is False.
+Traceback (most recent call last):
+  File "C:\Users\91807\Desktop\0_call_assist\app.py", line 117, in handle_speech_transcription
+    audio_content = elevenlabs_tts.text_to_speech(response_text)
+  File "C:\Users\91807\Desktop\0_call_assist\elevenlabs_tts.py", line 11, in text_to_speech
+    audio = client.generate(
+  File "C:\Users\91807\AppData\Local\Programs\Python\Python38\lib\site-packages\elevenlabs\client.py", line 223, in generate
+    raise ApiError(body="Text must be a string when stream is False.")
+elevenlabs.core.api_error.ApiError: status_code: None, body: Text must be a string when stream is False.
+2024-08-02 15:16:03,756 - __main__ - DEBUG - Handle transcription time: 1.0672736167907715 seconds
+2024-08-02 15:16:03,756 - __main__ - DEBUG - Total process_speech time: 1.572122573852539 seconds
+2024-08-02 15:16:07,613 - __main__ - INFO - Received /gather request
+2024-08-02 15:18:25,543 - __main__ - INFO - Received /voice request
+2024-08-02 15:18:25,543 - __main__ - DEBUG - Initial message: Thank you for calling BMW Dealership. I'm Lucy. How can I assist you today?
+2024-08-02 15:18:28,271 - __main__ - DEBUG - Initial message handling time: 2.727905511856079 seconds
+2024-08-02 15:18:28,435 - __main__ - INFO - Received /stream_audio request for file: bc71c4cc-efbe-4f71-be4e-470fbd5fd57a_initial_message.mp3
+2024-08-02 15:18:33,529 - __main__ - INFO - Received /gather request
+2024-08-02 15:18:37,833 - __main__ - INFO - Received /process_speech request
+2024-08-02 15:18:37,841 - __main__ - DEBUG - Speech received: Hey, I wanted to make an appointment.
+2024-08-02 15:18:37,841 - __main__ - DEBUG - Speech recognition time: 0.00823664665222168 seconds
+2024-08-02 15:18:38,349 - __main__ - DEBUG - Transcription time: 0.508176326751709 seconds
+2024-08-02 15:18:39,564 - __main__ - DEBUG - Response generation time: 1.2145259380340576 seconds
+2024-08-02 15:18:42,993 - __main__ - DEBUG - TTS generation time: 3.4294445514678955 seconds
+2024-08-02 15:18:42,993 - __main__ - DEBUG - Handle transcription time: 4.643970489501953 seconds
+2024-08-02 15:18:42,993 - __main__ - DEBUG - Total process_speech time: 5.160383462905884 seconds
+2024-08-02 15:18:43,201 - __main__ - INFO - Received /stream_audio request for file: bc71c4cc-efbe-4f71-be4e-470fbd5fd57a_response.mp3
+2024-08-02 15:18:48,800 - __main__ - INFO - Received /gather request
+2024-08-02 15:18:55,138 - __main__ - INFO - Received /process_speech request
+2024-08-02 15:18:55,138 - __main__ - DEBUG - Speech received: Yeah, I would like to book an appointment on 10th August at 10 a.m.
+2024-08-02 15:18:55,138 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-08-02 15:18:55,647 - __main__ - DEBUG - Transcription time: 0.5096542835235596 seconds
+2024-08-02 15:18:56,970 - __main__ - ERROR - Error in handle_speech_transcription: expected string or bytes-like object
+Traceback (most recent call last):
+  File "C:\Users\91807\Desktop\0_call_assist\app.py", line 108, in handle_speech_transcription
+    response_text = gpt4o_mini_integration.generate_response_with_function(speech_transcription, conversation_history)
+  File "C:\Users\91807\Desktop\0_call_assist\gpt4o_mini_integration.py", line 65, in generate_response_with_function
+    match = re.search(r"your appointment is successfully booked at (\d{1,2}:\d{2} [APM]{2}) on (\d{1,2}(?:th|st|nd|rd) \w+)", response_content, re.IGNORECASE)
+  File "C:\Users\91807\AppData\Local\Programs\Python\Python38\lib\re.py", line 201, in search
+    return _compile(pattern, flags).search(string)
+TypeError: expected string or bytes-like object
+2024-08-02 15:18:56,970 - __main__ - DEBUG - Handle transcription time: 1.3225228786468506 seconds
+2024-08-02 15:18:56,970 - __main__ - DEBUG - Total process_speech time: 1.8321771621704102 seconds
+2024-08-02 15:19:00,871 - __main__ - INFO - Received /gather request
+2024-08-02 15:58:51,923 - __main__ - INFO - Received /voice request
+2024-08-02 15:58:51,924 - __main__ - DEBUG - Initial message: Thank you for calling BMW Dealership. I'm Lucy. How can I assist you today?
+2024-08-02 15:58:54,591 - __main__ - DEBUG - Initial message handling time: 2.6669983863830566 seconds
+2024-08-02 15:58:54,767 - __main__ - INFO - Received /stream_audio request for file: 427a6e55-9715-42a8-8524-dc7a2ece9cef_initial_message.mp3
+2024-08-02 15:58:59,669 - __main__ - INFO - Received /gather request
+2024-08-02 15:59:03,943 - __main__ - INFO - Received /process_speech request
+2024-08-02 15:59:03,943 - __main__ - DEBUG - Speech received: Hey, I wanted to make an appointment.
+2024-08-02 15:59:03,943 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-08-02 15:59:04,447 - __main__ - DEBUG - Transcription time: 0.5040102005004883 seconds
+2024-08-02 15:59:05,855 - __main__ - DEBUG - Response generation time: 1.4080760478973389 seconds
+2024-08-02 15:59:08,410 - __main__ - DEBUG - TTS generation time: 2.5395383834838867 seconds
+2024-08-02 15:59:08,410 - __main__ - DEBUG - Handle transcription time: 3.9633665084838867 seconds
+2024-08-02 15:59:08,410 - __main__ - DEBUG - Total process_speech time: 4.467376708984375 seconds
+2024-08-02 15:59:08,586 - __main__ - INFO - Received /stream_audio request for file: 427a6e55-9715-42a8-8524-dc7a2ece9cef_response.mp3
+2024-08-02 15:59:13,920 - __main__ - INFO - Received /gather request
+2024-08-02 15:59:20,619 - __main__ - INFO - Received /process_speech request
+2024-08-02 15:59:20,619 - __main__ - DEBUG - Speech received: Ya book on 10th August at 10 a.m.
+2024-08-02 15:59:20,619 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-08-02 15:59:21,128 - __main__ - DEBUG - Transcription time: 0.5093739032745361 seconds
+2024-08-02 15:59:22,169 - __main__ - DEBUG - Response generation time: 1.0412929058074951 seconds
+2024-08-02 15:59:22,722 - __main__ - ERROR - Error in handle_speech_transcription: status_code: None, body: Text must be a string when stream is False.
+Traceback (most recent call last):
+  File "C:\Users\91807\Desktop\0_call_assist\app.py", line 117, in handle_speech_transcription
+    audio_content = elevenlabs_tts.text_to_speech(response_text)
+  File "C:\Users\91807\Desktop\0_call_assist\elevenlabs_tts.py", line 11, in text_to_speech
+    audio = client.generate(
+  File "C:\Users\91807\AppData\Local\Programs\Python\Python38\lib\site-packages\elevenlabs\client.py", line 223, in generate
+    raise ApiError(body="Text must be a string when stream is False.")
+elevenlabs.core.api_error.ApiError: status_code: None, body: Text must be a string when stream is False.
+2024-08-02 15:59:22,722 - __main__ - DEBUG - Handle transcription time: 1.594299554824829 seconds
+2024-08-02 15:59:22,722 - __main__ - DEBUG - Total process_speech time: 2.1036734580993652 seconds
+2024-08-02 15:59:26,542 - __main__ - INFO - Received /gather request
+2024-08-02 16:49:39,457 - __main__ - INFO - Received /voice request
+2024-08-02 16:49:39,457 - __main__ - DEBUG - Initial message: Thank you for calling BMW Dealership. I'm Lucy. How can I assist you today?
+2024-08-02 16:49:42,631 - __main__ - DEBUG - Initial message handling time: 3.1740524768829346 seconds
+2024-08-02 16:49:42,806 - __main__ - INFO - Received /stream_audio request for file: b84b9365-510b-414e-9b97-0fec37cf9019_initial_message.mp3
+2024-08-02 16:49:48,082 - __main__ - INFO - Received /gather request
+2024-08-02 16:50:04,776 - __main__ - INFO - Received /voice request
+2024-08-02 16:50:04,777 - __main__ - DEBUG - Initial message: Thank you for calling BMW Dealership. I'm Lucy. How can I assist you today?
+2024-08-02 16:50:07,372 - __main__ - DEBUG - Initial message handling time: 2.595191240310669 seconds
+2024-08-02 16:50:07,557 - __main__ - INFO - Received /stream_audio request for file: d18fc4fe-5f26-4f94-8e0c-22ec5681f4bb_initial_message.mp3
+2024-08-02 16:50:12,865 - __main__ - INFO - Received /gather request
+2024-08-02 16:50:16,353 - __main__ - INFO - Received /process_speech request
+2024-08-02 16:50:16,365 - __main__ - DEBUG - Speech received: Say I want to make an appointment.
+2024-08-02 16:50:16,365 - __main__ - DEBUG - Speech recognition time: 0.01168680191040039 seconds
+2024-08-02 16:50:16,877 - __main__ - DEBUG - Transcription time: 0.5121777057647705 seconds
+2024-08-02 16:50:16,877 - __main__ - ERROR - Error in handle_speech_transcription: module 'gpt4o_mini_integration' has no attribute 'generate_response_with_function'
+Traceback (most recent call last):
+  File "C:\Users\91807\Desktop\0_call_assist\app.py", line 108, in handle_speech_transcription
+    response_text = gpt4o_mini_integration.generate_response_with_function(speech_transcription, conversation_history)
+AttributeError: module 'gpt4o_mini_integration' has no attribute 'generate_response_with_function'
+2024-08-02 16:50:16,877 - __main__ - DEBUG - Handle transcription time: 0.0 seconds
+2024-08-02 16:50:16,877 - __main__ - DEBUG - Total process_speech time: 0.5238645076751709 seconds
+2024-08-02 16:50:20,644 - __main__ - INFO - Received /gather request
+2024-08-02 16:50:47,174 - __main__ - INFO - Received /voice request
+2024-08-02 16:50:47,174 - __main__ - DEBUG - Initial message: Thank you for calling BMW Dealership. I'm Lucy. How can I assist you today?
+2024-08-02 16:50:50,186 - __main__ - DEBUG - Initial message handling time: 3.0121817588806152 seconds
+2024-08-02 16:50:50,363 - __main__ - INFO - Received /stream_audio request for file: be38603f-d386-4dc3-a153-8715e87bc853_initial_message.mp3
+2024-08-02 16:50:55,354 - __main__ - INFO - Received /gather request
+2024-08-02 16:50:59,615 - __main__ - INFO - Received /process_speech request
+2024-08-02 16:50:59,615 - __main__ - DEBUG - Speech received: Hey, I wanted to book an appointment.
+2024-08-02 16:50:59,615 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-08-02 16:51:00,123 - __main__ - DEBUG - Transcription time: 0.5072464942932129 seconds
+2024-08-02 16:51:01,284 - __main__ - DEBUG - Response generation time: 1.1609737873077393 seconds
+2024-08-02 16:51:04,323 - __main__ - DEBUG - TTS generation time: 3.039435863494873 seconds
+2024-08-02 16:51:04,325 - __main__ - DEBUG - Handle transcription time: 4.200409650802612 seconds
+2024-08-02 16:51:04,325 - __main__ - DEBUG - Total process_speech time: 4.709361553192139 seconds
+2024-08-02 16:51:04,491 - __main__ - INFO - Received /stream_audio request for file: be38603f-d386-4dc3-a153-8715e87bc853_response.mp3
+2024-08-02 16:51:09,318 - __main__ - INFO - Received /gather request
+2024-08-02 16:51:16,060 - __main__ - INFO - Received /process_speech request
+2024-08-02 16:51:16,061 - __main__ - DEBUG - Speech received: Yeah, I want to book an appointment on 10th August 10 a.m.
+2024-08-02 16:51:16,061 - __main__ - DEBUG - Speech recognition time: 0.0006380081176757812 seconds
+2024-08-02 16:51:16,565 - __main__ - DEBUG - Transcription time: 0.5033702850341797 seconds
+2024-08-02 16:51:17,978 - __main__ - DEBUG - Response generation time: 1.4107909202575684 seconds
+2024-08-02 16:51:21,330 - __main__ - DEBUG - TTS generation time: 3.3520567417144775 seconds
+2024-08-02 16:51:21,330 - __main__ - DEBUG - Handle transcription time: 4.762847661972046 seconds
+2024-08-02 16:51:21,330 - __main__ - DEBUG - Total process_speech time: 5.2692694664001465 seconds
+2024-08-02 16:51:21,569 - __main__ - INFO - Received /stream_audio request for file: be38603f-d386-4dc3-a153-8715e87bc853_response.mp3
+2024-08-02 16:51:28,624 - __main__ - INFO - Received /gather request
+2024-08-02 16:51:32,623 - __main__ - INFO - Received /process_speech request
+2024-08-02 16:51:32,625 - __main__ - DEBUG - Speech received: Try thank you.
+2024-08-02 16:51:32,625 - __main__ - DEBUG - Speech recognition time: 0.0025055408477783203 seconds
+2024-08-02 16:51:33,141 - __main__ - DEBUG - Transcription time: 0.5158791542053223 seconds
+2024-08-02 16:51:34,531 - __main__ - DEBUG - Response generation time: 1.389765977859497 seconds
+2024-08-02 16:51:37,747 - __main__ - DEBUG - TTS generation time: 3.2155258655548096 seconds
+2024-08-02 16:51:37,747 - __main__ - DEBUG - Handle transcription time: 4.605291843414307 seconds
+2024-08-02 16:51:37,747 - __main__ - DEBUG - Total process_speech time: 5.123676538467407 seconds
+2024-08-02 16:51:37,919 - __main__ - INFO - Received /stream_audio request for file: be38603f-d386-4dc3-a153-8715e87bc853_response.mp3
+2024-08-02 16:51:38,335 - __main__ - INFO - Received /gather request
+2024-08-03 21:42:05,089 - __main__ - INFO - Received /voice request
+2024-08-03 21:42:05,089 - __main__ - DEBUG - Initial message: Thank you for calling BMW Dealership. I'm Lucy. How can I assist you today?
+2024-08-03 21:42:07,688 - __main__ - DEBUG - Initial message handling time: 2.599536418914795 seconds
+2024-08-03 21:42:07,877 - __main__ - INFO - Received /stream_audio request for file: d2e8b446-c216-41e1-8863-de2c0a2cf191_initial_message.mp3
+2024-08-03 21:42:13,197 - __main__ - INFO - Received /gather request
+2024-08-03 21:42:17,887 - __main__ - INFO - Received /process_speech request
+2024-08-03 21:42:17,905 - __main__ - DEBUG - Speech received: Hey, can you tell me more about yourself?
+2024-08-03 21:42:17,905 - __main__ - DEBUG - Speech recognition time: 0.0023343563079833984 seconds
+2024-08-03 21:42:18,417 - __main__ - DEBUG - Transcription time: 0.5123786926269531 seconds
+2024-08-03 21:42:19,728 - __main__ - DEBUG - Response generation time: 1.3103430271148682 seconds
+2024-08-03 21:42:22,971 - __main__ - DEBUG - TTS generation time: 3.2429099082946777 seconds
+2024-08-03 21:42:22,971 - __main__ - DEBUG - Handle transcription time: 4.553252935409546 seconds
+2024-08-03 21:42:22,971 - __main__ - DEBUG - Total process_speech time: 5.067965984344482 seconds
+2024-08-03 21:42:23,139 - __main__ - INFO - Received /stream_audio request for file: d2e8b446-c216-41e1-8863-de2c0a2cf191_response.mp3
+2024-08-03 21:42:32,546 - __main__ - INFO - Received /gather request
+2024-08-03 21:42:36,398 - __main__ - INFO - Received /process_speech request
+2024-08-03 21:42:36,399 - __main__ - DEBUG - Speech received: Yeah, I would like to book an appointment.
+2024-08-03 21:42:36,399 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-08-03 21:42:36,900 - __main__ - DEBUG - Transcription time: 0.5008680820465088 seconds
+2024-08-03 21:42:38,368 - __main__ - DEBUG - Response generation time: 1.468226432800293 seconds
+2024-08-03 21:42:41,280 - __main__ - DEBUG - TTS generation time: 2.9123525619506836 seconds
+2024-08-03 21:42:41,280 - __main__ - DEBUG - Handle transcription time: 4.380578994750977 seconds
+2024-08-03 21:42:41,280 - __main__ - DEBUG - Total process_speech time: 4.881447076797485 seconds
+2024-08-03 21:42:41,457 - __main__ - INFO - Received /stream_audio request for file: d2e8b446-c216-41e1-8863-de2c0a2cf191_response.mp3
+2024-08-03 21:42:47,237 - __main__ - INFO - Received /gather request
+2024-08-03 21:42:54,302 - __main__ - INFO - Received /process_speech request
+2024-08-03 21:42:54,302 - __main__ - DEBUG - Speech received: The book at 10 p.m. On Jan.
+2024-08-03 21:42:54,302 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-08-03 21:42:54,818 - __main__ - DEBUG - Transcription time: 0.516071081161499 seconds
+2024-08-03 21:42:55,882 - __main__ - DEBUG - Response generation time: 1.0632882118225098 seconds
+2024-08-03 21:42:58,261 - __main__ - DEBUG - TTS generation time: 2.378908634185791 seconds
+2024-08-03 21:42:58,261 - __main__ - DEBUG - Handle transcription time: 3.442196846008301 seconds
+2024-08-03 21:42:58,261 - __main__ - DEBUG - Total process_speech time: 3.9582679271698 seconds
+2024-08-03 21:42:58,436 - __main__ - INFO - Received /stream_audio request for file: d2e8b446-c216-41e1-8863-de2c0a2cf191_response.mp3
+2024-08-03 21:43:02,900 - __main__ - INFO - Received /gather request
+2024-08-03 21:43:05,985 - __main__ - INFO - Received /process_speech request
+2024-08-03 21:43:05,985 - __main__ - DEBUG - Speech received: You're sure.
+2024-08-03 21:43:05,985 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-08-03 21:43:06,493 - __main__ - DEBUG - Transcription time: 0.5086147785186768 seconds
+2024-08-03 21:43:07,433 - __main__ - DEBUG - Response generation time: 0.9400064945220947 seconds
+2024-08-03 21:43:10,400 - __main__ - DEBUG - TTS generation time: 2.966693878173828 seconds
+2024-08-03 21:43:10,414 - __main__ - DEBUG - Handle transcription time: 3.9207091331481934 seconds
+2024-08-03 21:43:10,415 - __main__ - DEBUG - Total process_speech time: 4.430000305175781 seconds
+2024-08-03 21:43:10,579 - __main__ - INFO - Received /stream_audio request for file: d2e8b446-c216-41e1-8863-de2c0a2cf191_response.mp3
+2024-08-03 21:43:18,536 - __main__ - INFO - Received /gather request
+2024-08-03 22:48:26,621 - __main__ - INFO - Received /voice request
+2024-08-03 22:48:26,622 - __main__ - DEBUG - Initial message: Thank you for calling BMW Dealership. I'm Lucy. How can I assist you today?
+2024-08-03 22:48:34,409 - __main__ - DEBUG - Initial message handling time: 7.786472320556641 seconds
+2024-08-03 22:48:34,595 - __main__ - INFO - Received /stream_audio request for file: 58e02eb4-0367-4a4f-a125-5d505f9103b6_initial_message.mp3
+2024-08-03 22:48:39,722 - __main__ - INFO - Received /gather request
+2024-08-03 22:48:44,401 - __main__ - INFO - Received /process_speech request
+2024-08-03 22:48:44,409 - __main__ - DEBUG - Speech received: Hey, can you can you tell me more about yourself?
+2024-08-03 22:48:44,411 - __main__ - DEBUG - Speech recognition time: 0.009561538696289062 seconds
+2024-08-03 22:48:44,978 - __main__ - DEBUG - Transcription time: 0.5676453113555908 seconds
+2024-08-03 22:48:46,297 - __main__ - DEBUG - Response generation time: 1.3183212280273438 seconds
+2024-08-03 22:48:49,868 - __main__ - DEBUG - TTS generation time: 3.570409059524536 seconds
+2024-08-03 22:48:49,870 - __main__ - DEBUG - Handle transcription time: 4.89164400100708 seconds
+2024-08-03 22:48:49,870 - __main__ - DEBUG - Total process_speech time: 5.46885085105896 seconds
+2024-08-03 22:48:50,035 - __main__ - INFO - Received /stream_audio request for file: 58e02eb4-0367-4a4f-a125-5d505f9103b6_response.mp3
+2024-08-03 22:49:02,043 - __main__ - INFO - Received /gather request
+2024-08-03 22:49:10,362 - __main__ - INFO - Received /process_speech request
+2024-08-03 22:49:10,363 - __main__ - DEBUG - Speech received: Yeah, I wanted to know the weather right now.
+2024-08-03 22:49:10,363 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-08-03 22:49:10,865 - __main__ - DEBUG - Transcription time: 0.5018439292907715 seconds
+2024-08-03 22:49:12,135 - __main__ - DEBUG - Response generation time: 1.2704010009765625 seconds
+2024-08-03 22:49:15,292 - __main__ - DEBUG - TTS generation time: 3.1567838191986084 seconds
+2024-08-03 22:49:15,293 - __main__ - DEBUG - Handle transcription time: 4.428189277648926 seconds
+2024-08-03 22:49:15,294 - __main__ - DEBUG - Total process_speech time: 4.9313576221466064 seconds
+2024-08-03 22:49:15,492 - __main__ - INFO - Received /stream_audio request for file: 58e02eb4-0367-4a4f-a125-5d505f9103b6_response.mp3
+2024-08-03 22:49:24,607 - __main__ - INFO - Received /gather request
+2024-08-03 22:49:30,463 - __main__ - INFO - Received /process_speech request
+2024-08-03 22:49:30,465 - __main__ - DEBUG - Speech received: Can you tell me which cars are available right now?
+2024-08-03 22:49:30,465 - __main__ - DEBUG - Speech recognition time: 0.0015072822570800781 seconds
+2024-08-03 22:49:30,967 - __main__ - DEBUG - Transcription time: 0.5021438598632812 seconds
+2024-08-03 22:49:32,709 - __main__ - DEBUG - Response generation time: 1.742706060409546 seconds
+2024-08-03 22:49:37,319 - __main__ - DEBUG - TTS generation time: 4.609665632247925 seconds
+2024-08-03 22:49:37,320 - __main__ - DEBUG - Handle transcription time: 6.353451490402222 seconds
+2024-08-03 22:49:37,320 - __main__ - DEBUG - Total process_speech time: 6.857102632522583 seconds
+2024-08-03 22:49:37,493 - __main__ - INFO - Received /stream_audio request for file: 58e02eb4-0367-4a4f-a125-5d505f9103b6_response.mp3
+2024-08-03 22:49:55,385 - __main__ - INFO - Received /gather request
+2024-08-03 22:50:00,046 - __main__ - INFO - Received /process_speech request
+2024-08-03 22:50:00,048 - __main__ - DEBUG - Speech received: Do you have the BMW X5 available?
+2024-08-03 22:50:00,048 - __main__ - DEBUG - Speech recognition time: 0.0015411376953125 seconds
+2024-08-03 22:50:00,549 - __main__ - DEBUG - Transcription time: 0.5007901191711426 seconds
+2024-08-03 22:50:01,675 - __main__ - DEBUG - Response generation time: 1.126124620437622 seconds
+2024-08-03 22:50:04,890 - __main__ - DEBUG - TTS generation time: 3.2148139476776123 seconds
+2024-08-03 22:50:04,891 - __main__ - DEBUG - Handle transcription time: 4.341938257217407 seconds
+2024-08-03 22:50:04,892 - __main__ - DEBUG - Total process_speech time: 4.845538377761841 seconds
+2024-08-03 22:50:05,064 - __main__ - INFO - Received /stream_audio request for file: 58e02eb4-0367-4a4f-a125-5d505f9103b6_response.mp3
+2024-08-03 22:50:13,749 - __main__ - INFO - Received /gather request
+2024-08-03 22:50:17,181 - __main__ - INFO - Received /process_speech request
+2024-08-03 22:50:17,182 - __main__ - DEBUG - Speech received: Yeah, I would like to book an appointment.
+2024-08-03 22:50:17,183 - __main__ - DEBUG - Speech recognition time: 0.0020165443420410156 seconds
+2024-08-03 22:50:17,684 - __main__ - DEBUG - Transcription time: 0.5016553401947021 seconds
+2024-08-03 22:50:18,816 - __main__ - DEBUG - Response generation time: 1.13130784034729 seconds
+2024-08-03 22:50:22,025 - __main__ - DEBUG - TTS generation time: 3.2093682289123535 seconds
+2024-08-03 22:50:22,025 - __main__ - DEBUG - Handle transcription time: 4.3406760692596436 seconds
+2024-08-03 22:50:22,027 - __main__ - DEBUG - Total process_speech time: 4.84592080116272 seconds
+2024-08-03 22:50:22,206 - __main__ - INFO - Received /stream_audio request for file: 58e02eb4-0367-4a4f-a125-5d505f9103b6_response.mp3
+2024-08-03 22:50:31,300 - __main__ - INFO - Received /gather request
+2024-08-03 22:50:37,979 - __main__ - INFO - Received /process_speech request
+2024-08-03 22:50:37,980 - __main__ - DEBUG - Speech received: Yeah, can you book it at like 4 p.m. On 10th, August?
+2024-08-03 22:50:37,981 - __main__ - DEBUG - Speech recognition time: 0.0010044574737548828 seconds
+2024-08-03 22:50:38,481 - __main__ - DEBUG - Transcription time: 0.5008981227874756 seconds
+2024-08-03 22:50:39,478 - __main__ - DEBUG - Response generation time: 0.9952273368835449 seconds
+2024-08-03 22:50:42,279 - __main__ - DEBUG - TTS generation time: 2.8012590408325195 seconds
+2024-08-03 22:50:42,282 - __main__ - DEBUG - Handle transcription time: 3.7994720935821533 seconds
+2024-08-03 22:50:42,283 - __main__ - DEBUG - Total process_speech time: 4.303403377532959 seconds
+2024-08-03 22:50:42,461 - __main__ - INFO - Received /stream_audio request for file: 58e02eb4-0367-4a4f-a125-5d505f9103b6_response.mp3
+2024-08-03 22:50:48,528 - __main__ - INFO - Received /gather request
+2024-08-12 20:47:52,737 - __main__ - INFO - Received /voice request
+2024-08-12 20:47:52,739 - __main__ - DEBUG - Initial message: Thank you for calling BMW Dealership. I'm Lucy. How can I assist you today?
+2024-08-12 20:47:54,984 - __main__ - DEBUG - Initial message handling time: 2.2447378635406494 seconds
+2024-08-12 20:47:55,159 - __main__ - INFO - Received /stream_audio request for file: fc08b8d4-875c-4605-b087-119d93a4fdee_initial_message.mp3
+2024-08-12 20:48:00,154 - __main__ - INFO - Received /gather request
+2024-08-12 20:48:07,761 - __main__ - INFO - Received /voice request
+2024-08-12 20:48:07,761 - __main__ - DEBUG - Initial message: Thank you for calling BMW Dealership. I'm Lucy. How can I assist you today?
+2024-08-12 20:48:09,791 - __main__ - DEBUG - Initial message handling time: 2.0303702354431152 seconds
+2024-08-12 20:48:09,949 - __main__ - INFO - Received /stream_audio request for file: 3751fe11-0602-4a96-877e-c6fd4c9a7d3e_initial_message.mp3
+2024-08-12 20:48:14,999 - __main__ - INFO - Received /gather request
+2024-09-29 13:54:44,055 - __main__ - INFO - Received /voice request
+2024-09-29 13:54:44,055 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Sri Lakshmi Temple. How can I assist you today?
+2024-09-29 13:54:44,055 - __main__ - DEBUG - Initial message handling time: 0.0 seconds
+2024-09-29 13:54:44,186 - __main__ - INFO - Received /gather request
+2024-09-29 13:57:14,977 - __main__ - INFO - Received /voice request
+2024-09-29 13:57:14,977 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Sri Lakshmi Temple. How can I assist you today?
+2024-09-29 13:57:16,710 - __main__ - DEBUG - Initial message handling time: 1.732964038848877 seconds
+2024-09-29 13:57:16,862 - __main__ - INFO - Received /stream_audio request for file: 49a89b40-0f24-4517-b620-7304b30e26d0_initial_message.mp3
+2024-09-29 13:57:20,693 - __main__ - INFO - Received /gather request
+2024-09-29 13:57:30,045 - __main__ - INFO - Received /process_speech request
+2024-09-29 13:57:30,045 - __main__ - DEBUG - Speech received: A.
+2024-09-29 13:57:30,045 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 13:57:30,559 - __main__ - DEBUG - Transcription time: 0.5133180618286133 seconds
+2024-09-29 13:57:31,481 - __main__ - DEBUG - Response generation time: 0.9224672317504883 seconds
+2024-09-29 13:57:33,013 - __main__ - DEBUG - TTS generation time: 1.5317566394805908 seconds
+2024-09-29 13:57:33,013 - __main__ - DEBUG - Handle transcription time: 2.454223871231079 seconds
+2024-09-29 13:57:33,013 - __main__ - DEBUG - Total process_speech time: 2.9675419330596924 seconds
+2024-09-29 13:57:33,182 - __main__ - INFO - Received /stream_audio request for file: 49a89b40-0f24-4517-b620-7304b30e26d0_response.mp3
+2024-09-29 13:57:36,349 - __main__ - INFO - Received /gather request
+2024-09-29 13:57:43,367 - __main__ - INFO - Received /process_speech request
+2024-09-29 13:57:43,367 - __main__ - DEBUG - Speech received: I would like to know about the temple.
+2024-09-29 13:57:43,367 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 13:57:43,880 - __main__ - DEBUG - Transcription time: 0.5131726264953613 seconds
+2024-09-29 13:57:45,574 - __main__ - DEBUG - Response generation time: 1.693697452545166 seconds
+2024-09-29 13:57:49,372 - __main__ - DEBUG - TTS generation time: 3.7974328994750977 seconds
+2024-09-29 13:57:49,373 - __main__ - DEBUG - Handle transcription time: 5.492621183395386 seconds
+2024-09-29 13:57:49,373 - __main__ - DEBUG - Total process_speech time: 6.005793809890747 seconds
+2024-09-29 13:57:49,528 - __main__ - INFO - Received /stream_audio request for file: 49a89b40-0f24-4517-b620-7304b30e26d0_response.mp3
+2024-09-29 13:58:05,399 - __main__ - INFO - Received /gather request
+2024-09-29 13:58:09,992 - __main__ - INFO - Received /process_speech request
+2024-09-29 13:58:09,992 - __main__ - DEBUG - Speech received: Can you talk in Hindi?
+2024-09-29 13:58:09,992 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 13:58:10,492 - __main__ - DEBUG - Transcription time: 0.5002260208129883 seconds
+2024-09-29 13:58:11,433 - __main__ - DEBUG - Response generation time: 0.9414217472076416 seconds
+2024-09-29 13:58:13,712 - __main__ - DEBUG - TTS generation time: 2.278594732284546 seconds
+2024-09-29 13:58:13,713 - __main__ - DEBUG - Handle transcription time: 3.2215449810028076 seconds
+2024-09-29 13:58:13,713 - __main__ - DEBUG - Total process_speech time: 3.721771001815796 seconds
+2024-09-29 13:58:13,862 - __main__ - INFO - Received /stream_audio request for file: 49a89b40-0f24-4517-b620-7304b30e26d0_response.mp3
+2024-09-29 13:58:21,556 - __main__ - INFO - Received /gather request
+2024-09-29 14:02:16,785 - __main__ - INFO - Received /voice request
+2024-09-29 14:02:16,785 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Sri Lakshmi Temple. How can I assist you today?
+2024-09-29 14:02:18,581 - __main__ - DEBUG - Initial message handling time: 1.7964880466461182 seconds
+2024-09-29 14:02:18,734 - __main__ - INFO - Received /stream_audio request for file: 3b0d4e04-a7a7-40fe-af29-da77db91286c_initial_message.mp3
+2024-09-29 14:02:22,598 - __main__ - INFO - Received /gather request
+2024-09-29 14:02:26,406 - __main__ - INFO - Received /process_speech request
+2024-09-29 14:02:26,409 - __main__ - DEBUG - Speech received: Can you speak in Hindi?
+2024-09-29 14:02:26,409 - __main__ - DEBUG - Speech recognition time: 0.002953767776489258 seconds
+2024-09-29 14:02:26,924 - __main__ - DEBUG - Transcription time: 0.5147247314453125 seconds
+2024-09-29 14:02:28,317 - __main__ - DEBUG - Response generation time: 1.3921318054199219 seconds
+2024-09-29 14:02:30,758 - __main__ - DEBUG - TTS generation time: 2.4412496089935303 seconds
+2024-09-29 14:02:30,760 - __main__ - DEBUG - Handle transcription time: 3.834899425506592 seconds
+2024-09-29 14:02:30,760 - __main__ - DEBUG - Total process_speech time: 4.353146553039551 seconds
+2024-09-29 14:02:30,907 - __main__ - INFO - Received /stream_audio request for file: 3b0d4e04-a7a7-40fe-af29-da77db91286c_response.mp3
+2024-09-29 14:02:36,033 - __main__ - INFO - Received /gather request
+2024-09-29 14:44:21,980 - __main__ - INFO - Received /voice request
+2024-09-29 14:44:21,981 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Albany Hindu Temple. How can I assist you today?
+2024-09-29 14:44:24,190 - __main__ - DEBUG - Initial message handling time: 2.2090535163879395 seconds
+2024-09-29 14:44:24,352 - __main__ - INFO - Received /stream_audio request for file: 56ffe9ec-845e-4405-b9be-61090f393087_initial_message.mp3
+2024-09-29 14:44:28,426 - __main__ - INFO - Received /gather request
+2024-09-29 14:44:50,281 - __main__ - INFO - Received /voice request
+2024-09-29 14:44:50,282 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Albany Hindu Temple. How can I assist you today?
+2024-09-29 14:44:52,212 - __main__ - DEBUG - Initial message handling time: 1.930767297744751 seconds
+2024-09-29 14:44:52,372 - __main__ - INFO - Received /stream_audio request for file: 23692a2f-a10d-4c6c-986b-2e2a594f3f97_initial_message.mp3
+2024-09-29 14:44:56,423 - __main__ - INFO - Received /gather request
+2024-09-29 14:45:00,638 - __main__ - INFO - Received /process_speech request
+2024-09-29 14:45:00,654 - __main__ - DEBUG - Speech received: I would like to make a booking.
+2024-09-29 14:45:00,654 - __main__ - DEBUG - Speech recognition time: 0.015626907348632812 seconds
+2024-09-29 14:45:01,163 - __main__ - DEBUG - Transcription time: 0.5091102123260498 seconds
+2024-09-29 14:45:02,642 - __main__ - DEBUG - Response generation time: 1.4787395000457764 seconds
+2024-09-29 14:45:06,888 - __main__ - DEBUG - TTS generation time: 4.24562931060791 seconds
+2024-09-29 14:45:06,888 - __main__ - DEBUG - Handle transcription time: 5.7243688106536865 seconds
+2024-09-29 14:45:06,888 - __main__ - DEBUG - Total process_speech time: 6.249105930328369 seconds
+2024-09-29 14:45:07,068 - __main__ - INFO - Received /stream_audio request for file: 23692a2f-a10d-4c6c-986b-2e2a594f3f97_response.mp3
+2024-09-29 14:45:25,156 - __main__ - INFO - Received /gather request
+2024-09-29 14:45:32,195 - __main__ - INFO - Received /process_speech request
+2024-09-29 14:45:32,195 - __main__ - DEBUG - Speech received: The Puja is abhishekam example.
+2024-09-29 14:45:32,195 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 14:45:32,695 - __main__ - DEBUG - Transcription time: 0.5005877017974854 seconds
+2024-09-29 14:45:33,990 - __main__ - DEBUG - Response generation time: 1.2940537929534912 seconds
+2024-09-29 14:45:38,014 - __main__ - DEBUG - TTS generation time: 4.024922847747803 seconds
+2024-09-29 14:45:38,014 - __main__ - DEBUG - Handle transcription time: 5.318976640701294 seconds
+2024-09-29 14:45:38,014 - __main__ - DEBUG - Total process_speech time: 5.819564342498779 seconds
+2024-09-29 14:45:38,192 - __main__ - INFO - Received /stream_audio request for file: 23692a2f-a10d-4c6c-986b-2e2a594f3f97_response.mp3
+2024-09-29 14:45:54,984 - __main__ - INFO - Received /gather request
+2024-09-29 14:46:01,229 - __main__ - INFO - Received /process_speech request
+2024-09-29 14:46:01,229 - __main__ - DEBUG - Speech received: I would like to do it at home.
+2024-09-29 14:46:01,229 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 14:46:01,741 - __main__ - DEBUG - Transcription time: 0.51273512840271 seconds
+2024-09-29 14:46:03,386 - __main__ - DEBUG - Response generation time: 1.6445372104644775 seconds
+2024-09-29 14:46:07,158 - __main__ - DEBUG - TTS generation time: 3.7724087238311768 seconds
+2024-09-29 14:46:07,158 - __main__ - DEBUG - Handle transcription time: 5.416945934295654 seconds
+2024-09-29 14:46:07,158 - __main__ - DEBUG - Total process_speech time: 5.929681062698364 seconds
+2024-09-29 14:46:07,326 - __main__ - INFO - Received /stream_audio request for file: 23692a2f-a10d-4c6c-986b-2e2a594f3f97_response.mp3
+2024-09-29 14:46:23,974 - __main__ - INFO - Received /gather request
+2024-09-29 14:46:28,186 - __main__ - INFO - Received /process_speech request
+2024-09-29 14:46:28,186 - __main__ - DEBUG - Speech received: My name is human.
+2024-09-29 14:46:28,186 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 14:46:28,691 - __main__ - DEBUG - Transcription time: 0.504561185836792 seconds
+2024-09-29 14:46:30,792 - __main__ - DEBUG - Response generation time: 2.1010913848876953 seconds
+2024-09-29 14:46:35,379 - __main__ - DEBUG - TTS generation time: 4.586884021759033 seconds
+2024-09-29 14:46:35,379 - __main__ - DEBUG - Handle transcription time: 6.6879754066467285 seconds
+2024-09-29 14:46:35,379 - __main__ - DEBUG - Total process_speech time: 7.1925365924835205 seconds
+2024-09-29 14:46:35,543 - __main__ - INFO - Received /stream_audio request for file: 23692a2f-a10d-4c6c-986b-2e2a594f3f97_response.mp3
+2024-09-29 14:46:53,952 - __main__ - INFO - Received /gather request
+2024-09-29 14:47:02,162 - __main__ - INFO - Received /process_speech request
+2024-09-29 14:47:02,162 - __main__ - DEBUG - Speech received: I would like to do the Puja on 12th October at 10 a.m.
+2024-09-29 14:47:02,162 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 14:47:02,668 - __main__ - DEBUG - Transcription time: 0.5060980319976807 seconds
+2024-09-29 14:47:04,423 - __main__ - DEBUG - Response generation time: 1.7540805339813232 seconds
+2024-09-29 14:47:08,883 - __main__ - DEBUG - TTS generation time: 4.459859609603882 seconds
+2024-09-29 14:47:08,883 - __main__ - DEBUG - Handle transcription time: 6.213940143585205 seconds
+2024-09-29 14:47:08,883 - __main__ - DEBUG - Total process_speech time: 6.720545291900635 seconds
+2024-09-29 14:47:09,057 - __main__ - INFO - Received /stream_audio request for file: 23692a2f-a10d-4c6c-986b-2e2a594f3f97_response.mp3
+2024-09-29 14:47:27,002 - __main__ - INFO - Received /gather request
+2024-09-29 14:47:31,230 - __main__ - INFO - Received /process_speech request
+2024-09-29 14:47:31,230 - __main__ - DEBUG - Speech received: My email ID is.
+2024-09-29 14:47:31,230 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 14:47:31,732 - __main__ - DEBUG - Transcription time: 0.5023045539855957 seconds
+2024-09-29 14:47:33,043 - __main__ - DEBUG - Response generation time: 1.3106701374053955 seconds
+2024-09-29 14:47:36,106 - __main__ - DEBUG - TTS generation time: 3.0633130073547363 seconds
+2024-09-29 14:47:36,106 - __main__ - DEBUG - Handle transcription time: 4.373983144760132 seconds
+2024-09-29 14:47:36,106 - __main__ - DEBUG - Total process_speech time: 4.8762876987457275 seconds
+2024-09-29 14:47:36,280 - __main__ - INFO - Received /stream_audio request for file: 23692a2f-a10d-4c6c-986b-2e2a594f3f97_response.mp3
+2024-09-29 14:47:45,860 - __main__ - INFO - Received /gather request
+2024-09-29 14:47:55,285 - __main__ - INFO - Received /process_speech request
+2024-09-29 14:47:55,291 - __main__ - DEBUG - Speech received: My email ID is etched address s.com and my phone number is 1 2 3 4.
+2024-09-29 14:47:55,291 - __main__ - DEBUG - Speech recognition time: 0.0055315494537353516 seconds
+2024-09-29 14:47:55,796 - __main__ - DEBUG - Transcription time: 0.5051164627075195 seconds
+2024-09-29 14:47:57,397 - __main__ - DEBUG - Response generation time: 1.600813865661621 seconds
+2024-09-29 14:48:02,399 - __main__ - DEBUG - TTS generation time: 5.0018017292022705 seconds
+2024-09-29 14:48:02,399 - __main__ - DEBUG - Handle transcription time: 6.602615594863892 seconds
+2024-09-29 14:48:02,399 - __main__ - DEBUG - Total process_speech time: 7.1132636070251465 seconds
+2024-09-29 14:48:02,591 - __main__ - INFO - Received /stream_audio request for file: 23692a2f-a10d-4c6c-986b-2e2a594f3f97_response.mp3
+2024-09-29 14:48:22,199 - __main__ - INFO - Received /gather request
+2024-09-29 14:48:29,205 - __main__ - INFO - Received /process_speech request
+2024-09-29 14:48:29,205 - __main__ - DEBUG - Speech received: My phone number is 518-528-5938.
+2024-09-29 14:48:29,205 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 14:48:29,713 - __main__ - DEBUG - Transcription time: 0.5078895092010498 seconds
+2024-09-29 14:48:31,707 - __main__ - DEBUG - Response generation time: 1.9933209419250488 seconds
+2024-09-29 14:48:37,406 - __main__ - DEBUG - TTS generation time: 5.698956727981567 seconds
+2024-09-29 14:48:37,406 - __main__ - DEBUG - Handle transcription time: 7.692277669906616 seconds
+2024-09-29 14:48:37,406 - __main__ - DEBUG - Total process_speech time: 8.200167179107666 seconds
+2024-09-29 14:48:37,569 - __main__ - INFO - Received /stream_audio request for file: 23692a2f-a10d-4c6c-986b-2e2a594f3f97_response.mp3
+2024-09-29 14:49:03,369 - __main__ - INFO - Received /gather request
+2024-09-29 14:49:17,788 - __main__ - INFO - Received /process_speech request
+2024-09-29 14:49:17,788 - __main__ - DEBUG - Speech received: No, my email ID is a k e. L. L a h, u m, a n d h, g mail.com
+2024-09-29 14:49:17,788 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 14:49:18,293 - __main__ - DEBUG - Transcription time: 0.5059051513671875 seconds
+2024-09-29 14:49:20,700 - __main__ - ERROR - Error in handle_speech_transcription: Unterminated string starting at: line 1 column 126 (char 125)
+Traceback (most recent call last):
+  File "C:\Users\91807\Desktop\0_call_assist\app.py", line 122, in handle_speech_transcription
+    response_text = gpt4o_mini_integration.generate_response_with_context(speech_transcription, conversation_history)
+  File "C:\Users\91807\Desktop\0_call_assist\gpt4o_mini_integration.py", line 85, in generate_response_with_context
+    arguments = json.loads(message["function_call"]["arguments"])
+  File "C:\Users\91807\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\91807\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\91807\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 126 (char 125)
+2024-09-29 14:49:20,753 - __main__ - DEBUG - Handle transcription time: 2.459066152572632 seconds
+2024-09-29 14:49:20,754 - __main__ - DEBUG - Total process_speech time: 2.9659676551818848 seconds
+2024-09-29 14:49:24,562 - __main__ - INFO - Received /gather request
+2024-09-29 14:49:31,986 - __main__ - INFO - Received /process_speech request
+2024-09-29 14:49:31,986 - __main__ - DEBUG - Speech received: Hey, my email is correct.
+2024-09-29 14:49:31,986 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 14:49:32,498 - __main__ - DEBUG - Transcription time: 0.5118513107299805 seconds
+2024-09-29 14:49:40,448 - __main__ - DEBUG - Response generation time: 7.950219631195068 seconds
+2024-09-29 14:49:42,000 - __main__ - DEBUG - TTS generation time: 1.5522010326385498 seconds
+2024-09-29 14:49:42,000 - __main__ - DEBUG - Handle transcription time: 9.502420663833618 seconds
+2024-09-29 14:49:42,000 - __main__ - DEBUG - Total process_speech time: 10.014271974563599 seconds
+2024-09-29 14:49:42,183 - __main__ - INFO - Received /stream_audio request for file: 23692a2f-a10d-4c6c-986b-2e2a594f3f97_response.mp3
+2024-09-29 14:49:45,147 - __main__ - INFO - Received /gather request
+2024-09-29 15:01:02,127 - __main__ - INFO - Received /voice request
+2024-09-29 15:01:02,137 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Albany Hindu Temple. How can I assist you today?
+2024-09-29 15:01:03,820 - __main__ - DEBUG - Initial message handling time: 1.6824822425842285 seconds
+2024-09-29 15:01:03,985 - __main__ - INFO - Received /stream_audio request for file: cb6c733f-864f-4325-b6f6-17665dd3df3c_initial_message.mp3
+2024-09-29 15:01:08,220 - __main__ - INFO - Received /gather request
+2024-09-29 15:01:11,642 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:01:11,642 - __main__ - DEBUG - Speech received: I would like to make a bouquet.
+2024-09-29 15:01:11,642 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:01:12,145 - __main__ - DEBUG - Transcription time: 0.5029621124267578 seconds
+2024-09-29 15:01:13,351 - __main__ - DEBUG - Response generation time: 1.2060747146606445 seconds
+2024-09-29 15:01:15,713 - __main__ - DEBUG - TTS generation time: 2.361726999282837 seconds
+2024-09-29 15:01:15,713 - __main__ - DEBUG - Handle transcription time: 3.5678017139434814 seconds
+2024-09-29 15:01:15,713 - __main__ - DEBUG - Total process_speech time: 4.070763826370239 seconds
+2024-09-29 15:01:15,892 - __main__ - INFO - Received /stream_audio request for file: cb6c733f-864f-4325-b6f6-17665dd3df3c_response.mp3
+2024-09-29 15:01:24,337 - __main__ - INFO - Received /gather request
+2024-09-29 15:01:29,355 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:01:29,357 - __main__ - DEBUG - Speech received: It's a bit shaken.
+2024-09-29 15:01:29,357 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:01:29,859 - __main__ - DEBUG - Transcription time: 0.5020036697387695 seconds
+2024-09-29 15:01:30,939 - __main__ - DEBUG - Response generation time: 1.0806493759155273 seconds
+2024-09-29 15:01:33,715 - __main__ - DEBUG - TTS generation time: 2.7759177684783936 seconds
+2024-09-29 15:01:33,715 - __main__ - DEBUG - Handle transcription time: 3.856567144393921 seconds
+2024-09-29 15:01:33,715 - __main__ - DEBUG - Total process_speech time: 4.35857081413269 seconds
+2024-09-29 15:01:33,898 - __main__ - INFO - Received /stream_audio request for file: cb6c733f-864f-4325-b6f6-17665dd3df3c_response.mp3
+2024-09-29 15:01:44,691 - __main__ - INFO - Received /gather request
+2024-09-29 15:01:49,332 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:01:49,332 - __main__ - DEBUG - Speech received: I would like to do second Arena.
+2024-09-29 15:01:49,332 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:01:49,839 - __main__ - DEBUG - Transcription time: 0.5069437026977539 seconds
+2024-09-29 15:01:51,034 - __main__ - DEBUG - Response generation time: 1.194861888885498 seconds
+2024-09-29 15:01:53,181 - __main__ - DEBUG - TTS generation time: 2.147704601287842 seconds
+2024-09-29 15:01:53,181 - __main__ - DEBUG - Handle transcription time: 3.34256649017334 seconds
+2024-09-29 15:01:53,181 - __main__ - DEBUG - Total process_speech time: 3.8495101928710938 seconds
+2024-09-29 15:01:53,458 - __main__ - INFO - Received /stream_audio request for file: cb6c733f-864f-4325-b6f6-17665dd3df3c_response.mp3
+2024-09-29 15:02:00,635 - __main__ - INFO - Received /gather request
+2024-09-29 15:02:05,295 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:02:05,295 - __main__ - DEBUG - Speech received: Abhishekam.
+2024-09-29 15:02:05,295 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:02:05,799 - __main__ - DEBUG - Transcription time: 0.5043342113494873 seconds
+2024-09-29 15:02:06,658 - __main__ - DEBUG - Response generation time: 0.8592498302459717 seconds
+2024-09-29 15:02:08,552 - __main__ - DEBUG - TTS generation time: 1.8937077522277832 seconds
+2024-09-29 15:02:08,568 - __main__ - DEBUG - Handle transcription time: 2.768789291381836 seconds
+2024-09-29 15:02:08,568 - __main__ - DEBUG - Total process_speech time: 3.2731235027313232 seconds
+2024-09-29 15:02:08,719 - __main__ - INFO - Received /stream_audio request for file: cb6c733f-864f-4325-b6f6-17665dd3df3c_response.mp3
+2024-09-29 15:02:14,780 - __main__ - INFO - Received /gather request
+2024-09-29 15:02:21,775 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:02:21,775 - __main__ - DEBUG - Speech received: On 27th, October at 10 a.m.
+2024-09-29 15:02:21,775 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:02:22,287 - __main__ - DEBUG - Transcription time: 0.5124397277832031 seconds
+2024-09-29 15:02:23,538 - __main__ - DEBUG - Response generation time: 1.2514238357543945 seconds
+2024-09-29 15:02:25,226 - __main__ - DEBUG - TTS generation time: 1.6876285076141357 seconds
+2024-09-29 15:02:25,226 - __main__ - DEBUG - Handle transcription time: 2.9390523433685303 seconds
+2024-09-29 15:02:25,226 - __main__ - DEBUG - Total process_speech time: 3.4514920711517334 seconds
+2024-09-29 15:02:25,418 - __main__ - INFO - Received /stream_audio request for file: cb6c733f-864f-4325-b6f6-17665dd3df3c_response.mp3
+2024-09-29 15:02:28,758 - __main__ - INFO - Received /gather request
+2024-09-29 15:02:33,332 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:02:33,332 - __main__ - DEBUG - Speech received: Aquila.
+2024-09-29 15:02:33,333 - __main__ - DEBUG - Speech recognition time: 0.0010635852813720703 seconds
+2024-09-29 15:02:33,834 - __main__ - DEBUG - Transcription time: 0.5004661083221436 seconds
+2024-09-29 15:02:34,546 - __main__ - DEBUG - Response generation time: 0.7118432521820068 seconds
+2024-09-29 15:02:36,106 - __main__ - DEBUG - TTS generation time: 1.5604429244995117 seconds
+2024-09-29 15:02:36,108 - __main__ - DEBUG - Handle transcription time: 2.2735586166381836 seconds
+2024-09-29 15:02:36,108 - __main__ - DEBUG - Total process_speech time: 2.775088310241699 seconds
+2024-09-29 15:02:36,275 - __main__ - INFO - Received /stream_audio request for file: cb6c733f-864f-4325-b6f6-17665dd3df3c_response.mp3
+2024-09-29 15:02:39,765 - __main__ - INFO - Received /gather request
+2024-09-29 15:02:50,021 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:02:50,021 - __main__ - DEBUG - Speech received: A k e l l a s u m a n. T h, a direct email. Com.
+2024-09-29 15:02:50,021 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:02:50,530 - __main__ - DEBUG - Transcription time: 0.5090169906616211 seconds
+2024-09-29 15:02:51,702 - __main__ - DEBUG - Response generation time: 1.1714696884155273 seconds
+2024-09-29 15:02:54,713 - __main__ - DEBUG - TTS generation time: 3.01106858253479 seconds
+2024-09-29 15:02:54,713 - __main__ - DEBUG - Handle transcription time: 4.182538270950317 seconds
+2024-09-29 15:02:54,713 - __main__ - DEBUG - Total process_speech time: 4.69207239151001 seconds
+2024-09-29 15:02:54,887 - __main__ - INFO - Received /stream_audio request for file: cb6c733f-864f-4325-b6f6-17665dd3df3c_response.mp3
+2024-09-29 15:03:04,710 - __main__ - INFO - Received /gather request
+2024-09-29 15:03:08,092 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:03:08,092 - __main__ - DEBUG - Speech received: Yep.
+2024-09-29 15:03:08,092 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:03:08,595 - __main__ - DEBUG - Transcription time: 0.5025029182434082 seconds
+2024-09-29 15:03:09,310 - __main__ - DEBUG - Response generation time: 0.714989423751831 seconds
+2024-09-29 15:03:11,248 - __main__ - DEBUG - TTS generation time: 1.938049554824829 seconds
+2024-09-29 15:03:11,249 - __main__ - DEBUG - Handle transcription time: 2.65303897857666 seconds
+2024-09-29 15:03:11,249 - __main__ - DEBUG - Total process_speech time: 3.1565370559692383 seconds
+2024-09-29 15:03:11,427 - __main__ - INFO - Received /stream_audio request for file: cb6c733f-864f-4325-b6f6-17665dd3df3c_response.mp3
+2024-09-29 15:03:13,963 - __main__ - INFO - Received /gather request
+2024-09-29 15:03:21,405 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:03:21,406 - __main__ - DEBUG - Speech received: 518-528-5938.
+2024-09-29 15:03:21,407 - __main__ - DEBUG - Speech recognition time: 0.0009222030639648438 seconds
+2024-09-29 15:03:21,910 - __main__ - DEBUG - Transcription time: 0.5032398700714111 seconds
+2024-09-29 15:03:22,748 - __main__ - DEBUG - Response generation time: 0.8377597332000732 seconds
+2024-09-29 15:03:24,965 - __main__ - DEBUG - TTS generation time: 2.2167699337005615 seconds
+2024-09-29 15:03:24,965 - __main__ - DEBUG - Handle transcription time: 3.0545296669006348 seconds
+2024-09-29 15:03:24,965 - __main__ - DEBUG - Total process_speech time: 3.5586917400360107 seconds
+2024-09-29 15:03:25,140 - __main__ - INFO - Received /stream_audio request for file: cb6c733f-864f-4325-b6f6-17665dd3df3c_response.mp3
+2024-09-29 15:03:30,220 - __main__ - INFO - Received /gather request
+2024-09-29 15:03:34,397 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:03:34,398 - __main__ - DEBUG - Speech received: At home.
+2024-09-29 15:03:34,398 - __main__ - DEBUG - Speech recognition time: 0.001024484634399414 seconds
+2024-09-29 15:03:34,905 - __main__ - DEBUG - Transcription time: 0.5069353580474854 seconds
+2024-09-29 15:03:36,543 - __main__ - DEBUG - Response generation time: 1.637803316116333 seconds
+2024-09-29 15:03:38,126 - __main__ - DEBUG - TTS generation time: 1.5679547786712646 seconds
+2024-09-29 15:03:38,126 - __main__ - DEBUG - Handle transcription time: 3.221458911895752 seconds
+2024-09-29 15:03:38,126 - __main__ - DEBUG - Total process_speech time: 3.7294187545776367 seconds
+2024-09-29 15:03:38,303 - __main__ - INFO - Received /stream_audio request for file: cb6c733f-864f-4325-b6f6-17665dd3df3c_response.mp3
+2024-09-29 15:03:41,812 - __main__ - INFO - Received /gather request
+2024-09-29 15:06:11,571 - __main__ - INFO - Received /voice request
+2024-09-29 15:06:11,572 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Albany Hindu Temple. How can I assist you today?
+2024-09-29 15:06:13,296 - __main__ - DEBUG - Initial message handling time: 1.7240715026855469 seconds
+2024-09-29 15:06:13,467 - __main__ - INFO - Received /stream_audio request for file: f4c03602-2c53-49ca-9a5f-4562dc0d867d_initial_message.mp3
+2024-09-29 15:06:17,579 - __main__ - INFO - Received /gather request
+2024-09-29 15:06:21,407 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:06:21,407 - __main__ - DEBUG - Speech received: I would like to make a bouquet.
+2024-09-29 15:06:21,407 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:06:21,921 - __main__ - DEBUG - Transcription time: 0.5141618251800537 seconds
+2024-09-29 15:06:23,038 - __main__ - DEBUG - Response generation time: 1.1170506477355957 seconds
+2024-09-29 15:06:25,641 - __main__ - DEBUG - TTS generation time: 2.6026556491851807 seconds
+2024-09-29 15:06:25,641 - __main__ - DEBUG - Handle transcription time: 3.7197062969207764 seconds
+2024-09-29 15:06:25,641 - __main__ - DEBUG - Total process_speech time: 4.23386812210083 seconds
+2024-09-29 15:06:25,817 - __main__ - INFO - Received /stream_audio request for file: f4c03602-2c53-49ca-9a5f-4562dc0d867d_response.mp3
+2024-09-29 15:06:36,039 - __main__ - INFO - Received /gather request
+2024-09-29 15:06:41,131 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:06:41,131 - __main__ - DEBUG - Speech received: I would like to book for abhishekam.
+2024-09-29 15:06:41,131 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:06:41,635 - __main__ - DEBUG - Transcription time: 0.5039033889770508 seconds
+2024-09-29 15:06:42,341 - __main__ - DEBUG - Response generation time: 0.7056429386138916 seconds
+2024-09-29 15:06:44,053 - __main__ - DEBUG - TTS generation time: 1.7108871936798096 seconds
+2024-09-29 15:06:44,053 - __main__ - DEBUG - Handle transcription time: 2.418121099472046 seconds
+2024-09-29 15:06:44,053 - __main__ - DEBUG - Total process_speech time: 2.9220244884490967 seconds
+2024-09-29 15:06:44,247 - __main__ - INFO - Received /stream_audio request for file: f4c03602-2c53-49ca-9a5f-4562dc0d867d_response.mp3
+2024-09-29 15:06:48,353 - __main__ - INFO - Received /gather request
+2024-09-29 15:06:55,372 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:06:55,372 - __main__ - DEBUG - Speech received: 10 a.m.
+2024-09-29 15:06:55,372 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:06:55,886 - __main__ - DEBUG - Transcription time: 0.5141050815582275 seconds
+2024-09-29 15:06:56,627 - __main__ - DEBUG - Response generation time: 0.7412679195404053 seconds
+2024-09-29 15:06:57,908 - __main__ - DEBUG - TTS generation time: 1.2808012962341309 seconds
+2024-09-29 15:06:57,908 - __main__ - DEBUG - Handle transcription time: 2.022069215774536 seconds
+2024-09-29 15:06:57,908 - __main__ - DEBUG - Total process_speech time: 2.5361742973327637 seconds
+2024-09-29 15:06:58,072 - __main__ - INFO - Received /stream_audio request for file: f4c03602-2c53-49ca-9a5f-4562dc0d867d_response.mp3
+2024-09-29 15:07:00,400 - __main__ - INFO - Received /gather request
+2024-09-29 15:07:05,452 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:07:05,452 - __main__ - DEBUG - Speech received: ShoeMint.
+2024-09-29 15:07:05,452 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:07:05,953 - __main__ - DEBUG - Transcription time: 0.5004937648773193 seconds
+2024-09-29 15:07:08,713 - __main__ - DEBUG - Response generation time: 2.760390281677246 seconds
+2024-09-29 15:07:10,279 - __main__ - DEBUG - TTS generation time: 1.5657081604003906 seconds
+2024-09-29 15:07:10,280 - __main__ - DEBUG - Handle transcription time: 4.327428340911865 seconds
+2024-09-29 15:07:10,280 - __main__ - DEBUG - Total process_speech time: 4.8280558586120605 seconds
+2024-09-29 15:07:10,435 - __main__ - INFO - Received /stream_audio request for file: f4c03602-2c53-49ca-9a5f-4562dc0d867d_response.mp3
+2024-09-29 15:07:12,955 - __main__ - INFO - Received /gather request
+2024-09-29 15:07:23,597 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:07:23,598 - __main__ - DEBUG - Speech received: A k e l l a s u m, a n, t h, a debate gmail.com.
+2024-09-29 15:07:23,598 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:07:24,110 - __main__ - DEBUG - Transcription time: 0.5115973949432373 seconds
+2024-09-29 15:07:28,201 - __main__ - DEBUG - Response generation time: 4.091234445571899 seconds
+2024-09-29 15:07:30,850 - __main__ - DEBUG - TTS generation time: 2.648817300796509 seconds
+2024-09-29 15:07:30,850 - __main__ - DEBUG - Handle transcription time: 6.740051746368408 seconds
+2024-09-29 15:07:30,850 - __main__ - DEBUG - Total process_speech time: 7.2516491413116455 seconds
+2024-09-29 15:07:31,076 - __main__ - INFO - Received /stream_audio request for file: f4c03602-2c53-49ca-9a5f-4562dc0d867d_response.mp3
+2024-09-29 15:07:40,291 - __main__ - INFO - Received /gather request
+2024-09-29 15:07:46,082 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:07:46,082 - __main__ - DEBUG - Speech received: Sumanth at gmail.com.
+2024-09-29 15:07:46,082 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:07:46,590 - __main__ - DEBUG - Transcription time: 0.5077905654907227 seconds
+2024-09-29 15:07:47,702 - __main__ - DEBUG - Response generation time: 1.1127684116363525 seconds
+2024-09-29 15:07:49,033 - __main__ - DEBUG - TTS generation time: 1.3305087089538574 seconds
+2024-09-29 15:07:49,036 - __main__ - DEBUG - Handle transcription time: 2.446808338165283 seconds
+2024-09-29 15:07:49,036 - __main__ - DEBUG - Total process_speech time: 2.954598903656006 seconds
+2024-09-29 15:07:49,280 - __main__ - INFO - Received /stream_audio request for file: f4c03602-2c53-49ca-9a5f-4562dc0d867d_response.mp3
+2024-09-29 15:07:51,856 - __main__ - INFO - Received /gather request
+2024-09-29 15:07:59,685 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:07:59,685 - __main__ - DEBUG - Speech received: It's 518-528-5938.
+2024-09-29 15:07:59,685 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:08:00,186 - __main__ - DEBUG - Transcription time: 0.5007517337799072 seconds
+2024-09-29 15:08:00,984 - __main__ - DEBUG - Response generation time: 0.7980031967163086 seconds
+2024-09-29 15:08:03,021 - __main__ - DEBUG - TTS generation time: 2.0372087955474854 seconds
+2024-09-29 15:08:03,021 - __main__ - DEBUG - Handle transcription time: 2.835211992263794 seconds
+2024-09-29 15:08:03,021 - __main__ - DEBUG - Total process_speech time: 3.3365187644958496 seconds
+2024-09-29 15:08:03,200 - __main__ - INFO - Received /stream_audio request for file: f4c03602-2c53-49ca-9a5f-4562dc0d867d_response.mp3
+2024-09-29 15:08:07,258 - __main__ - INFO - Received /gather request
+2024-09-29 15:08:11,058 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:08:11,058 - __main__ - DEBUG - Speech received: Assemble.
+2024-09-29 15:08:11,059 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:08:11,656 - __main__ - DEBUG - Transcription time: 0.5967676639556885 seconds
+2024-09-29 15:08:12,635 - __main__ - DEBUG - Response generation time: 0.9775369167327881 seconds
+2024-09-29 15:08:14,300 - __main__ - DEBUG - TTS generation time: 1.6659784317016602 seconds
+2024-09-29 15:08:14,300 - __main__ - DEBUG - Handle transcription time: 2.6435153484344482 seconds
+2024-09-29 15:08:14,300 - __main__ - DEBUG - Total process_speech time: 3.242283344268799 seconds
+2024-09-29 15:08:14,485 - __main__ - INFO - Received /stream_audio request for file: f4c03602-2c53-49ca-9a5f-4562dc0d867d_response.mp3
+2024-09-29 15:08:18,669 - __main__ - INFO - Received /gather request
+2024-09-29 15:08:22,051 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:08:22,051 - __main__ - DEBUG - Speech received: At the temple.
+2024-09-29 15:08:22,051 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:08:22,556 - __main__ - DEBUG - Transcription time: 0.5039594173431396 seconds
+2024-09-29 15:08:25,680 - __main__ - DEBUG - Response generation time: 3.1245124340057373 seconds
+2024-09-29 15:08:29,339 - __main__ - DEBUG - TTS generation time: 3.658493757247925 seconds
+2024-09-29 15:08:29,339 - __main__ - DEBUG - Handle transcription time: 6.783006191253662 seconds
+2024-09-29 15:08:29,339 - __main__ - DEBUG - Total process_speech time: 7.287398815155029 seconds
+2024-09-29 15:08:29,500 - __main__ - INFO - Received /stream_audio request for file: f4c03602-2c53-49ca-9a5f-4562dc0d867d_response.mp3
+2024-09-29 15:08:44,374 - __main__ - INFO - Received /gather request
+2024-09-29 15:13:18,076 - __main__ - INFO - Received /voice request
+2024-09-29 15:13:18,077 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Albany Hindu Temple. How can I assist you today?
+2024-09-29 15:13:20,078 - __main__ - DEBUG - Initial message handling time: 2.0020031929016113 seconds
+2024-09-29 15:13:20,233 - __main__ - INFO - Received /stream_audio request for file: cc4804e6-0fd1-4a02-99bf-8f2cb6d91ce3_initial_message.mp3
+2024-09-29 15:13:24,749 - __main__ - INFO - Received /gather request
+2024-09-29 15:13:32,576 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:13:32,576 - __main__ - DEBUG - Speech received: I would like to.
+2024-09-29 15:13:32,576 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:13:33,093 - __main__ - DEBUG - Transcription time: 0.5099215507507324 seconds
+2024-09-29 15:13:34,231 - __main__ - DEBUG - Response generation time: 1.1386053562164307 seconds
+2024-09-29 15:13:36,170 - __main__ - DEBUG - TTS generation time: 1.9240367412567139 seconds
+2024-09-29 15:13:36,170 - __main__ - DEBUG - Handle transcription time: 3.0776493549346924 seconds
+2024-09-29 15:13:36,170 - __main__ - DEBUG - Total process_speech time: 3.5948948860168457 seconds
+2024-09-29 15:13:36,340 - __main__ - INFO - Received /stream_audio request for file: cc4804e6-0fd1-4a02-99bf-8f2cb6d91ce3_response.mp3
+2024-09-29 15:13:42,009 - __main__ - INFO - Received /gather request
+2024-09-29 15:13:45,796 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:13:45,796 - __main__ - DEBUG - Speech received: Mitsubishi.
+2024-09-29 15:13:45,796 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:13:46,300 - __main__ - DEBUG - Transcription time: 0.5032694339752197 seconds
+2024-09-29 15:13:47,186 - __main__ - DEBUG - Response generation time: 0.8850152492523193 seconds
+2024-09-29 15:13:49,801 - __main__ - DEBUG - TTS generation time: 2.6157872676849365 seconds
+2024-09-29 15:13:49,817 - __main__ - DEBUG - Handle transcription time: 3.517347574234009 seconds
+2024-09-29 15:13:49,817 - __main__ - DEBUG - Total process_speech time: 4.0206170082092285 seconds
+2024-09-29 15:13:49,990 - __main__ - INFO - Received /stream_audio request for file: cc4804e6-0fd1-4a02-99bf-8f2cb6d91ce3_response.mp3
+2024-09-29 15:14:00,487 - __main__ - INFO - Received /gather request
+2024-09-29 15:14:04,725 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:14:04,725 - __main__ - DEBUG - Speech received: Laxmi Puja.
+2024-09-29 15:14:04,725 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:14:05,231 - __main__ - DEBUG - Transcription time: 0.5052599906921387 seconds
+2024-09-29 15:14:06,070 - __main__ - DEBUG - Response generation time: 0.8383862972259521 seconds
+2024-09-29 15:14:08,286 - __main__ - DEBUG - TTS generation time: 2.216810941696167 seconds
+2024-09-29 15:14:08,286 - __main__ - DEBUG - Handle transcription time: 3.055197238922119 seconds
+2024-09-29 15:14:08,286 - __main__ - DEBUG - Total process_speech time: 3.5609679222106934 seconds
+2024-09-29 15:14:08,445 - __main__ - INFO - Received /stream_audio request for file: cc4804e6-0fd1-4a02-99bf-8f2cb6d91ce3_response.mp3
+2024-09-29 15:14:15,729 - __main__ - INFO - Received /gather request
+2024-09-29 15:14:23,645 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:14:23,647 - __main__ - DEBUG - Speech received: I would like to book on 29th, October at 10 a.m.
+2024-09-29 15:14:23,647 - __main__ - DEBUG - Speech recognition time: 0.0011858940124511719 seconds
+2024-09-29 15:14:24,157 - __main__ - DEBUG - Transcription time: 0.5103356838226318 seconds
+2024-09-29 15:14:25,075 - __main__ - DEBUG - Response generation time: 0.9179806709289551 seconds
+2024-09-29 15:14:27,263 - __main__ - DEBUG - TTS generation time: 2.1874871253967285 seconds
+2024-09-29 15:14:27,263 - __main__ - DEBUG - Handle transcription time: 3.1054677963256836 seconds
+2024-09-29 15:14:27,263 - __main__ - DEBUG - Total process_speech time: 3.6169893741607666 seconds
+2024-09-29 15:14:27,456 - __main__ - INFO - Received /stream_audio request for file: cc4804e6-0fd1-4a02-99bf-8f2cb6d91ce3_response.mp3
+2024-09-29 15:14:35,162 - __main__ - INFO - Received /gather request
+2024-09-29 15:14:39,421 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:14:39,426 - __main__ - DEBUG - Speech received: My name is sumanth.
+2024-09-29 15:14:39,426 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:14:39,939 - __main__ - DEBUG - Transcription time: 0.5124096870422363 seconds
+2024-09-29 15:14:40,935 - __main__ - DEBUG - Response generation time: 0.9963171482086182 seconds
+2024-09-29 15:14:42,469 - __main__ - DEBUG - TTS generation time: 1.5345146656036377 seconds
+2024-09-29 15:14:42,469 - __main__ - DEBUG - Handle transcription time: 2.530831813812256 seconds
+2024-09-29 15:14:42,469 - __main__ - DEBUG - Total process_speech time: 3.043241500854492 seconds
+2024-09-29 15:14:42,696 - __main__ - INFO - Received /stream_audio request for file: cc4804e6-0fd1-4a02-99bf-8f2cb6d91ce3_response.mp3
+2024-09-29 15:14:46,174 - __main__ - INFO - Received /gather request
+2024-09-29 15:14:52,050 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:14:52,050 - __main__ - DEBUG - Speech received: It's sumanth activate gmail.com.
+2024-09-29 15:14:52,050 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:14:52,555 - __main__ - DEBUG - Transcription time: 0.5050289630889893 seconds
+2024-09-29 15:14:53,455 - __main__ - DEBUG - Response generation time: 0.900662899017334 seconds
+2024-09-29 15:14:55,870 - __main__ - DEBUG - TTS generation time: 2.4146952629089355 seconds
+2024-09-29 15:14:55,870 - __main__ - DEBUG - Handle transcription time: 3.3153581619262695 seconds
+2024-09-29 15:14:55,870 - __main__ - DEBUG - Total process_speech time: 3.820387125015259 seconds
+2024-09-29 15:14:56,041 - __main__ - INFO - Received /stream_audio request for file: cc4804e6-0fd1-4a02-99bf-8f2cb6d91ce3_response.mp3
+2024-09-29 15:15:05,235 - __main__ - INFO - Received /gather request
+2024-09-29 15:15:10,265 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:15:10,265 - __main__ - DEBUG - Speech received: Sumanth at gmail.com.
+2024-09-29 15:15:10,265 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:15:10,770 - __main__ - DEBUG - Transcription time: 0.5053586959838867 seconds
+2024-09-29 15:15:11,555 - __main__ - DEBUG - Response generation time: 0.7838428020477295 seconds
+2024-09-29 15:15:13,550 - __main__ - DEBUG - TTS generation time: 1.9953107833862305 seconds
+2024-09-29 15:15:13,550 - __main__ - DEBUG - Handle transcription time: 2.77915358543396 seconds
+2024-09-29 15:15:13,550 - __main__ - DEBUG - Total process_speech time: 3.2850186824798584 seconds
+2024-09-29 15:15:13,706 - __main__ - INFO - Received /stream_audio request for file: cc4804e6-0fd1-4a02-99bf-8f2cb6d91ce3_response.mp3
+2024-09-29 15:15:19,332 - __main__ - INFO - Received /gather request
+2024-09-29 15:15:26,713 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:15:26,713 - __main__ - DEBUG - Speech received: It's 518-528-5938.
+2024-09-29 15:15:26,713 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:15:27,225 - __main__ - DEBUG - Transcription time: 0.511650800704956 seconds
+2024-09-29 15:15:28,292 - __main__ - DEBUG - Response generation time: 1.0672507286071777 seconds
+2024-09-29 15:15:30,686 - __main__ - DEBUG - TTS generation time: 2.3934545516967773 seconds
+2024-09-29 15:15:30,686 - __main__ - DEBUG - Handle transcription time: 3.460705280303955 seconds
+2024-09-29 15:15:30,686 - __main__ - DEBUG - Total process_speech time: 3.972914934158325 seconds
+2024-09-29 15:15:30,874 - __main__ - INFO - Received /stream_audio request for file: cc4804e6-0fd1-4a02-99bf-8f2cb6d91ce3_response.mp3
+2024-09-29 15:15:39,246 - __main__ - INFO - Received /gather request
+2024-09-29 15:15:43,034 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:15:43,040 - __main__ - DEBUG - Speech received: At the temple.
+2024-09-29 15:15:43,040 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 15:15:43,550 - __main__ - DEBUG - Transcription time: 0.510767936706543 seconds
+2024-09-29 15:15:49,755 - __main__ - DEBUG - Response generation time: 6.204730272293091 seconds
+2024-09-29 15:15:52,560 - __main__ - DEBUG - TTS generation time: 2.80507230758667 seconds
+2024-09-29 15:15:52,560 - __main__ - DEBUG - Handle transcription time: 9.00980257987976 seconds
+2024-09-29 15:15:52,560 - __main__ - DEBUG - Total process_speech time: 9.520570516586304 seconds
+2024-09-29 15:15:52,756 - __main__ - INFO - Received /stream_audio request for file: cc4804e6-0fd1-4a02-99bf-8f2cb6d91ce3_response.mp3
+2024-09-29 15:16:03,021 - __main__ - INFO - Received /gather request
+2024-09-29 15:16:08,007 - __main__ - INFO - Received /process_speech request
+2024-09-29 15:16:08,008 - __main__ - DEBUG - Speech received: What is the date of the booking?
+2024-09-29 15:16:08,009 - __main__ - DEBUG - Speech recognition time: 0.0009980201721191406 seconds
+2024-09-29 15:16:08,511 - __main__ - DEBUG - Transcription time: 0.5022778511047363 seconds
+2024-09-29 15:16:09,586 - __main__ - DEBUG - Response generation time: 1.074671983718872 seconds
+2024-09-29 15:16:11,983 - __main__ - DEBUG - TTS generation time: 2.3963582515716553 seconds
+2024-09-29 15:16:11,983 - __main__ - DEBUG - Handle transcription time: 3.472038745880127 seconds
+2024-09-29 15:16:11,984 - __main__ - DEBUG - Total process_speech time: 3.9763150215148926 seconds
+2024-09-29 15:16:12,191 - __main__ - INFO - Received /stream_audio request for file: cc4804e6-0fd1-4a02-99bf-8f2cb6d91ce3_response.mp3
+2024-09-29 15:16:20,669 - __main__ - INFO - Received /gather request
+2024-09-29 17:08:34,599 - __main__ - INFO - Received /voice request
+2024-09-29 17:08:34,610 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Albany Hindu Temple. How can I assist you today?
+2024-09-29 17:08:36,444 - __main__ - DEBUG - Initial message handling time: 1.83500075340271 seconds
+2024-09-29 17:08:36,643 - __main__ - INFO - Received /stream_audio request for file: b54fb716-e634-4005-9ffa-2f9478e87c6b_initial_message.mp3
+2024-09-29 17:08:40,640 - __main__ - INFO - Received /gather request
+2024-09-29 17:08:46,489 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:08:46,489 - __main__ - DEBUG - Speech received: Hey, I wanted to make a bouquet.
+2024-09-29 17:08:46,489 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:08:46,992 - __main__ - DEBUG - Transcription time: 0.5024068355560303 seconds
+2024-09-29 17:08:47,857 - __main__ - DEBUG - Response generation time: 0.8653123378753662 seconds
+2024-09-29 17:08:50,839 - __main__ - DEBUG - TTS generation time: 2.981722831726074 seconds
+2024-09-29 17:08:50,839 - __main__ - DEBUG - Handle transcription time: 3.8470351696014404 seconds
+2024-09-29 17:08:50,839 - __main__ - DEBUG - Total process_speech time: 4.349442005157471 seconds
+2024-09-29 17:08:51,017 - __main__ - INFO - Received /stream_audio request for file: b54fb716-e634-4005-9ffa-2f9478e87c6b_response.mp3
+2024-09-29 17:09:02,833 - __main__ - INFO - Received /gather request
+2024-09-29 17:09:06,626 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:09:06,626 - __main__ - DEBUG - Speech received: yeah, I want to make booking
+2024-09-29 17:09:06,626 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:09:07,138 - __main__ - DEBUG - Transcription time: 0.5125992298126221 seconds
+2024-09-29 17:09:07,956 - __main__ - DEBUG - Response generation time: 0.8181765079498291 seconds
+2024-09-29 17:09:09,646 - __main__ - DEBUG - TTS generation time: 1.6898365020751953 seconds
+2024-09-29 17:09:09,646 - __main__ - DEBUG - Handle transcription time: 2.5080130100250244 seconds
+2024-09-29 17:09:09,646 - __main__ - DEBUG - Total process_speech time: 3.0206122398376465 seconds
+2024-09-29 17:09:09,822 - __main__ - INFO - Received /stream_audio request for file: b54fb716-e634-4005-9ffa-2f9478e87c6b_response.mp3
+2024-09-29 17:09:13,672 - __main__ - INFO - Received /gather request
+2024-09-29 17:09:19,079 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:09:19,079 - __main__ - DEBUG - Speech received: I would like to do, Lakshmi Puja.
+2024-09-29 17:09:19,079 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:09:19,593 - __main__ - DEBUG - Transcription time: 0.5131931304931641 seconds
+2024-09-29 17:09:20,260 - __main__ - DEBUG - Response generation time: 0.6671557426452637 seconds
+2024-09-29 17:09:21,812 - __main__ - DEBUG - TTS generation time: 1.5523021221160889 seconds
+2024-09-29 17:09:21,812 - __main__ - DEBUG - Handle transcription time: 2.2194578647613525 seconds
+2024-09-29 17:09:21,812 - __main__ - DEBUG - Total process_speech time: 2.7326509952545166 seconds
+2024-09-29 17:09:21,986 - __main__ - INFO - Received /stream_audio request for file: b54fb716-e634-4005-9ffa-2f9478e87c6b_response.mp3
+2024-09-29 17:09:25,610 - __main__ - INFO - Received /gather request
+2024-09-29 17:09:29,409 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:09:29,409 - __main__ - DEBUG - Speech received: 10 a.m.
+2024-09-29 17:09:29,409 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:09:29,920 - __main__ - DEBUG - Transcription time: 0.5112481117248535 seconds
+2024-09-29 17:09:30,516 - __main__ - DEBUG - Response generation time: 0.5957460403442383 seconds
+2024-09-29 17:09:31,756 - __main__ - DEBUG - TTS generation time: 1.2400462627410889 seconds
+2024-09-29 17:09:31,756 - __main__ - DEBUG - Handle transcription time: 1.8357923030853271 seconds
+2024-09-29 17:09:31,756 - __main__ - DEBUG - Total process_speech time: 2.3475515842437744 seconds
+2024-09-29 17:09:31,919 - __main__ - INFO - Received /stream_audio request for file: b54fb716-e634-4005-9ffa-2f9478e87c6b_response.mp3
+2024-09-29 17:09:34,033 - __main__ - INFO - Received /gather request
+2024-09-29 17:09:38,632 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:09:38,632 - __main__ - DEBUG - Speech received: Suman.
+2024-09-29 17:09:38,632 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:09:39,139 - __main__ - DEBUG - Transcription time: 0.5071754455566406 seconds
+2024-09-29 17:09:39,874 - __main__ - DEBUG - Response generation time: 0.7346460819244385 seconds
+2024-09-29 17:09:41,351 - __main__ - DEBUG - TTS generation time: 1.4771864414215088 seconds
+2024-09-29 17:09:41,351 - __main__ - DEBUG - Handle transcription time: 2.2118325233459473 seconds
+2024-09-29 17:09:41,351 - __main__ - DEBUG - Total process_speech time: 2.719007968902588 seconds
+2024-09-29 17:09:41,500 - __main__ - INFO - Received /stream_audio request for file: b54fb716-e634-4005-9ffa-2f9478e87c6b_response.mp3
+2024-09-29 17:09:44,757 - __main__ - INFO - Received /gather request
+2024-09-29 17:09:47,773 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:09:47,776 - __main__ - DEBUG - Speech received: Sumanth.
+2024-09-29 17:09:47,776 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:09:48,289 - __main__ - DEBUG - Transcription time: 0.5135061740875244 seconds
+2024-09-29 17:09:49,107 - __main__ - DEBUG - Response generation time: 0.8177404403686523 seconds
+2024-09-29 17:09:50,569 - __main__ - DEBUG - TTS generation time: 1.4620380401611328 seconds
+2024-09-29 17:09:50,569 - __main__ - DEBUG - Handle transcription time: 2.279778480529785 seconds
+2024-09-29 17:09:50,569 - __main__ - DEBUG - Total process_speech time: 2.7932846546173096 seconds
+2024-09-29 17:09:50,729 - __main__ - INFO - Received /stream_audio request for file: b54fb716-e634-4005-9ffa-2f9478e87c6b_response.mp3
+2024-09-29 17:09:53,921 - __main__ - INFO - Received /gather request
+2024-09-29 17:10:00,515 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:10:00,515 - __main__ - DEBUG - Speech received: 518-528-5938.
+2024-09-29 17:10:00,515 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:10:01,025 - __main__ - DEBUG - Transcription time: 0.5096297264099121 seconds
+2024-09-29 17:10:01,971 - __main__ - DEBUG - Response generation time: 0.9457077980041504 seconds
+2024-09-29 17:10:03,652 - __main__ - DEBUG - TTS generation time: 1.6811158657073975 seconds
+2024-09-29 17:10:03,654 - __main__ - DEBUG - Handle transcription time: 2.6293394565582275 seconds
+2024-09-29 17:10:03,654 - __main__ - DEBUG - Total process_speech time: 3.1389691829681396 seconds
+2024-09-29 17:10:03,837 - __main__ - INFO - Received /stream_audio request for file: b54fb716-e634-4005-9ffa-2f9478e87c6b_response.mp3
+2024-09-29 17:10:08,023 - __main__ - INFO - Received /gather request
+2024-09-29 17:10:11,800 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:10:11,800 - __main__ - DEBUG - Speech received: At the temple.
+2024-09-29 17:10:11,800 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:10:12,315 - __main__ - DEBUG - Transcription time: 0.5155091285705566 seconds
+2024-09-29 17:10:14,447 - __main__ - DEBUG - Response generation time: 2.1316006183624268 seconds
+2024-09-29 17:10:16,690 - __main__ - DEBUG - TTS generation time: 2.2432901859283447 seconds
+2024-09-29 17:10:16,690 - __main__ - DEBUG - Handle transcription time: 4.3748908042907715 seconds
+2024-09-29 17:10:16,690 - __main__ - DEBUG - Total process_speech time: 4.890399932861328 seconds
+2024-09-29 17:10:16,909 - __main__ - INFO - Received /stream_audio request for file: b54fb716-e634-4005-9ffa-2f9478e87c6b_response.mp3
+2024-09-29 17:10:24,537 - __main__ - INFO - Received /gather request
+2024-09-29 17:10:29,538 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:10:29,538 - __main__ - DEBUG - Speech received: ATV on 9th of October.
+2024-09-29 17:10:29,538 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:10:30,051 - __main__ - DEBUG - Transcription time: 0.5132765769958496 seconds
+2024-09-29 17:10:31,092 - __main__ - DEBUG - Response generation time: 1.0405166149139404 seconds
+2024-09-29 17:10:33,496 - __main__ - DEBUG - TTS generation time: 2.4047491550445557 seconds
+2024-09-29 17:10:33,496 - __main__ - DEBUG - Handle transcription time: 3.445265769958496 seconds
+2024-09-29 17:10:33,496 - __main__ - DEBUG - Total process_speech time: 3.9585423469543457 seconds
+2024-09-29 17:10:33,659 - __main__ - INFO - Received /stream_audio request for file: b54fb716-e634-4005-9ffa-2f9478e87c6b_response.mp3
+2024-09-29 17:10:39,718 - __main__ - INFO - Received /gather request
+2024-09-29 17:10:46,980 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:10:46,980 - __main__ - DEBUG - Speech received: Yes.
+2024-09-29 17:10:46,980 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:10:47,484 - __main__ - DEBUG - Transcription time: 0.5036137104034424 seconds
+2024-09-29 17:10:49,802 - __main__ - DEBUG - Response generation time: 2.317845106124878 seconds
+2024-09-29 17:10:52,266 - __main__ - DEBUG - TTS generation time: 2.4643993377685547 seconds
+2024-09-29 17:10:52,266 - __main__ - DEBUG - Handle transcription time: 4.782244443893433 seconds
+2024-09-29 17:10:52,266 - __main__ - DEBUG - Total process_speech time: 5.285858154296875 seconds
+2024-09-29 17:10:52,469 - __main__ - INFO - Received /stream_audio request for file: b54fb716-e634-4005-9ffa-2f9478e87c6b_response.mp3
+2024-09-29 17:11:00,321 - __main__ - INFO - Received /gather request
+2024-09-29 17:11:10,731 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:11:10,731 - __main__ - DEBUG - Speech received: I don't think October 9th, this past. I want to be eight in 2024 October 9th.
+2024-09-29 17:11:10,731 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:11:11,234 - __main__ - DEBUG - Transcription time: 0.5026037693023682 seconds
+2024-09-29 17:11:12,336 - __main__ - DEBUG - Response generation time: 1.1019153594970703 seconds
+2024-09-29 17:11:14,615 - __main__ - DEBUG - TTS generation time: 2.2778706550598145 seconds
+2024-09-29 17:11:14,615 - __main__ - DEBUG - Handle transcription time: 3.3809947967529297 seconds
+2024-09-29 17:11:14,615 - __main__ - DEBUG - Total process_speech time: 3.883598566055298 seconds
+2024-09-29 17:11:14,776 - __main__ - INFO - Received /stream_audio request for file: b54fb716-e634-4005-9ffa-2f9478e87c6b_response.mp3
+2024-09-29 17:11:22,903 - __main__ - INFO - Received /gather request
+2024-09-29 17:11:29,792 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:11:29,796 - __main__ - DEBUG - Speech received: Yes.
+2024-09-29 17:11:29,796 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:11:30,299 - __main__ - DEBUG - Transcription time: 0.5027952194213867 seconds
+2024-09-29 17:11:33,558 - __main__ - DEBUG - Response generation time: 3.2586669921875 seconds
+2024-09-29 17:11:36,743 - __main__ - DEBUG - TTS generation time: 3.1854658126831055 seconds
+2024-09-29 17:11:36,744 - __main__ - DEBUG - Handle transcription time: 6.444895029067993 seconds
+2024-09-29 17:11:36,744 - __main__ - DEBUG - Total process_speech time: 6.94769024848938 seconds
+2024-09-29 17:11:37,075 - __main__ - INFO - Received /stream_audio request for file: b54fb716-e634-4005-9ffa-2f9478e87c6b_response.mp3
+2024-09-29 17:11:48,822 - __main__ - INFO - Received /gather request
+2024-09-29 17:55:00,587 - __main__ - INFO - Received /voice request
+2024-09-29 17:55:00,588 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Albany Hindu Temple. How can I assist you today?
+2024-09-29 17:55:02,773 - __main__ - DEBUG - Initial message handling time: 2.185065746307373 seconds
+2024-09-29 17:55:02,944 - __main__ - INFO - Received /stream_audio request for file: 5099564d-fc30-4284-8995-8a4b413c40d8_initial_message.mp3
+2024-09-29 17:55:07,232 - __main__ - INFO - Received /gather request
+2024-09-29 17:55:11,039 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:55:11,039 - __main__ - DEBUG - Speech received: I would like to make a potion bouquet.
+2024-09-29 17:55:11,039 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:55:11,545 - __main__ - DEBUG - Transcription time: 0.5063936710357666 seconds
+2024-09-29 17:55:12,520 - __main__ - DEBUG - Response generation time: 0.9742605686187744 seconds
+2024-09-29 17:55:14,657 - __main__ - DEBUG - TTS generation time: 2.137514352798462 seconds
+2024-09-29 17:55:14,673 - __main__ - DEBUG - Handle transcription time: 3.1275529861450195 seconds
+2024-09-29 17:55:14,673 - __main__ - DEBUG - Total process_speech time: 3.633946657180786 seconds
+2024-09-29 17:55:14,857 - __main__ - INFO - Received /stream_audio request for file: 5099564d-fc30-4284-8995-8a4b413c40d8_response.mp3
+2024-09-29 17:55:20,868 - __main__ - INFO - Received /gather request
+2024-09-29 17:55:25,542 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:55:25,545 - __main__ - DEBUG - Speech received: I would like to book Laxmi Puja.
+2024-09-29 17:55:25,545 - __main__ - DEBUG - Speech recognition time: 0.003088235855102539 seconds
+2024-09-29 17:55:26,053 - __main__ - DEBUG - Transcription time: 0.5085911750793457 seconds
+2024-09-29 17:55:26,699 - __main__ - DEBUG - Response generation time: 0.6451725959777832 seconds
+2024-09-29 17:55:28,334 - __main__ - DEBUG - TTS generation time: 1.635861873626709 seconds
+2024-09-29 17:55:28,334 - __main__ - DEBUG - Handle transcription time: 2.281034469604492 seconds
+2024-09-29 17:55:28,334 - __main__ - DEBUG - Total process_speech time: 2.7927138805389404 seconds
+2024-09-29 17:55:28,528 - __main__ - INFO - Received /stream_audio request for file: 5099564d-fc30-4284-8995-8a4b413c40d8_response.mp3
+2024-09-29 17:55:32,411 - __main__ - INFO - Received /gather request
+2024-09-29 17:55:39,003 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:55:39,003 - __main__ - DEBUG - Speech received: I want it on October 9th, 11 a.m.
+2024-09-29 17:55:39,003 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:55:39,510 - __main__ - DEBUG - Transcription time: 0.5060641765594482 seconds
+2024-09-29 17:55:40,128 - __main__ - DEBUG - Response generation time: 0.6184964179992676 seconds
+2024-09-29 17:55:41,608 - __main__ - DEBUG - TTS generation time: 1.4801280498504639 seconds
+2024-09-29 17:55:41,608 - __main__ - DEBUG - Handle transcription time: 2.0986244678497314 seconds
+2024-09-29 17:55:41,608 - __main__ - DEBUG - Total process_speech time: 2.6046886444091797 seconds
+2024-09-29 17:55:41,785 - __main__ - INFO - Received /stream_audio request for file: 5099564d-fc30-4284-8995-8a4b413c40d8_response.mp3
+2024-09-29 17:55:44,881 - __main__ - INFO - Received /gather request
+2024-09-29 17:55:51,885 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:55:51,885 - __main__ - DEBUG - Speech received: It's sumanth.
+2024-09-29 17:55:51,885 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:55:52,396 - __main__ - DEBUG - Transcription time: 0.5110423564910889 seconds
+2024-09-29 17:55:53,106 - __main__ - DEBUG - Response generation time: 0.7092554569244385 seconds
+2024-09-29 17:55:54,811 - __main__ - DEBUG - TTS generation time: 1.7057080268859863 seconds
+2024-09-29 17:55:54,811 - __main__ - DEBUG - Handle transcription time: 2.414963483810425 seconds
+2024-09-29 17:55:54,811 - __main__ - DEBUG - Total process_speech time: 2.9260058403015137 seconds
+2024-09-29 17:55:54,976 - __main__ - INFO - Received /stream_audio request for file: 5099564d-fc30-4284-8995-8a4b413c40d8_response.mp3
+2024-09-29 17:55:58,329 - __main__ - INFO - Received /gather request
+2024-09-29 17:56:03,356 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:56:03,356 - __main__ - DEBUG - Speech received: Suman at gmail.com.
+2024-09-29 17:56:03,356 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:56:03,861 - __main__ - DEBUG - Transcription time: 0.5049436092376709 seconds
+2024-09-29 17:56:04,475 - __main__ - DEBUG - Response generation time: 0.6144697666168213 seconds
+2024-09-29 17:56:05,898 - __main__ - DEBUG - TTS generation time: 1.4230520725250244 seconds
+2024-09-29 17:56:05,898 - __main__ - DEBUG - Handle transcription time: 2.0375218391418457 seconds
+2024-09-29 17:56:05,898 - __main__ - DEBUG - Total process_speech time: 2.5424654483795166 seconds
+2024-09-29 17:56:06,066 - __main__ - INFO - Received /stream_audio request for file: 5099564d-fc30-4284-8995-8a4b413c40d8_response.mp3
+2024-09-29 17:56:09,094 - __main__ - INFO - Received /gather request
+2024-09-29 17:56:14,897 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:56:14,900 - __main__ - DEBUG - Speech received: Violin e528 5938.
+2024-09-29 17:56:14,900 - __main__ - DEBUG - Speech recognition time: 0.003238677978515625 seconds
+2024-09-29 17:56:15,410 - __main__ - DEBUG - Transcription time: 0.5096611976623535 seconds
+2024-09-29 17:56:16,391 - __main__ - DEBUG - Response generation time: 0.9812607765197754 seconds
+2024-09-29 17:56:18,354 - __main__ - DEBUG - TTS generation time: 1.9626333713531494 seconds
+2024-09-29 17:56:18,354 - __main__ - DEBUG - Handle transcription time: 2.943894147872925 seconds
+2024-09-29 17:56:18,354 - __main__ - DEBUG - Total process_speech time: 3.456794023513794 seconds
+2024-09-29 17:56:18,526 - __main__ - INFO - Received /stream_audio request for file: 5099564d-fc30-4284-8995-8a4b413c40d8_response.mp3
+2024-09-29 17:56:24,114 - __main__ - INFO - Received /gather request
+2024-09-29 17:56:27,521 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:56:27,521 - __main__ - DEBUG - Speech received: At my home.
+2024-09-29 17:56:27,521 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:56:28,026 - __main__ - DEBUG - Transcription time: 0.5045199394226074 seconds
+2024-09-29 17:56:30,429 - __main__ - ERROR - Error in handle_speech_transcription: Unterminated string starting at: line 1 column 125 (char 124)
+Traceback (most recent call last):
+  File "C:\Users\91807\Desktop\0_call_assist\app.py", line 123, in handle_speech_transcription
+    response_text = gpt4o_mini_integration.generate_response_with_context(speech_transcription, conversation_history)
+  File "C:\Users\91807\Desktop\0_call_assist\gpt4o_mini_integration.py", line 86, in generate_response_with_context
+    arguments = json.loads(message["function_call"]["arguments"])
+  File "C:\Users\91807\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\91807\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\91807\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 125 (char 124)
+2024-09-29 17:56:30,429 - __main__ - DEBUG - Handle transcription time: 2.4030418395996094 seconds
+2024-09-29 17:56:30,429 - __main__ - DEBUG - Total process_speech time: 2.908069610595703 seconds
+2024-09-29 17:56:34,278 - __main__ - INFO - Received /gather request
+2024-09-29 17:56:39,279 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:56:39,279 - __main__ - DEBUG - Speech received: At home.
+2024-09-29 17:56:39,279 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:56:39,782 - __main__ - DEBUG - Transcription time: 0.5029253959655762 seconds
+2024-09-29 17:56:42,001 - __main__ - DEBUG - Response generation time: 2.219792366027832 seconds
+2024-09-29 17:56:44,133 - __main__ - DEBUG - TTS generation time: 2.1315503120422363 seconds
+2024-09-29 17:56:44,133 - __main__ - DEBUG - Handle transcription time: 4.351342678070068 seconds
+2024-09-29 17:56:44,133 - __main__ - DEBUG - Total process_speech time: 4.8542680740356445 seconds
+2024-09-29 17:56:44,330 - __main__ - INFO - Received /stream_audio request for file: 5099564d-fc30-4284-8995-8a4b413c40d8_response.mp3
+2024-09-29 17:56:50,907 - __main__ - INFO - Received /gather request
+2024-09-29 17:56:56,305 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:56:56,305 - __main__ - DEBUG - Speech received: I want it on October 9th, at 10 a.m.
+2024-09-29 17:56:56,305 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:56:56,810 - __main__ - DEBUG - Transcription time: 0.5054776668548584 seconds
+2024-09-29 17:56:57,682 - __main__ - DEBUG - Response generation time: 0.8714630603790283 seconds
+2024-09-29 17:57:00,206 - __main__ - DEBUG - TTS generation time: 2.523371696472168 seconds
+2024-09-29 17:57:00,206 - __main__ - DEBUG - Handle transcription time: 3.3954830169677734 seconds
+2024-09-29 17:57:00,206 - __main__ - DEBUG - Total process_speech time: 3.900960683822632 seconds
+2024-09-29 17:57:00,369 - __main__ - INFO - Received /stream_audio request for file: 5099564d-fc30-4284-8995-8a4b413c40d8_response.mp3
+2024-09-29 17:57:07,227 - __main__ - INFO - Received /gather request
+2024-09-29 17:57:10,289 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:57:10,324 - __main__ - DEBUG - Speech received: Sumanth.
+2024-09-29 17:57:10,324 - __main__ - DEBUG - Speech recognition time: 0.03502392768859863 seconds
+2024-09-29 17:57:10,830 - __main__ - DEBUG - Transcription time: 0.5058367252349854 seconds
+2024-09-29 17:57:11,681 - __main__ - DEBUG - Response generation time: 0.8511872291564941 seconds
+2024-09-29 17:57:13,147 - __main__ - DEBUG - TTS generation time: 1.46596360206604 seconds
+2024-09-29 17:57:13,163 - __main__ - DEBUG - Handle transcription time: 2.3327929973602295 seconds
+2024-09-29 17:57:13,163 - __main__ - DEBUG - Total process_speech time: 2.8742129802703857 seconds
+2024-09-29 17:57:13,331 - __main__ - INFO - Received /stream_audio request for file: 5099564d-fc30-4284-8995-8a4b413c40d8_response.mp3
+2024-09-29 17:57:16,820 - __main__ - INFO - Received /gather request
+2024-09-29 17:57:21,810 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:57:21,810 - __main__ - DEBUG - Speech received: Two month at gmail.com.
+2024-09-29 17:57:21,810 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:57:22,323 - __main__ - DEBUG - Transcription time: 0.5130023956298828 seconds
+2024-09-29 17:57:23,131 - __main__ - DEBUG - Response generation time: 0.8079428672790527 seconds
+2024-09-29 17:57:24,602 - __main__ - DEBUG - TTS generation time: 1.4712252616882324 seconds
+2024-09-29 17:57:24,602 - __main__ - DEBUG - Handle transcription time: 2.279168128967285 seconds
+2024-09-29 17:57:24,602 - __main__ - DEBUG - Total process_speech time: 2.792170524597168 seconds
+2024-09-29 17:57:24,776 - __main__ - INFO - Received /stream_audio request for file: 5099564d-fc30-4284-8995-8a4b413c40d8_response.mp3
+2024-09-29 17:57:27,963 - __main__ - INFO - Received /gather request
+2024-09-29 17:57:34,128 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:57:34,128 - __main__ - DEBUG - Speech received: 518-528-5938.
+2024-09-29 17:57:34,128 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:57:34,638 - __main__ - DEBUG - Transcription time: 0.5098528861999512 seconds
+2024-09-29 17:57:35,591 - __main__ - DEBUG - Response generation time: 0.952664852142334 seconds
+2024-09-29 17:57:37,854 - __main__ - DEBUG - TTS generation time: 2.263293743133545 seconds
+2024-09-29 17:57:37,854 - __main__ - DEBUG - Handle transcription time: 3.215958595275879 seconds
+2024-09-29 17:57:37,854 - __main__ - DEBUG - Total process_speech time: 3.72581148147583 seconds
+2024-09-29 17:57:38,013 - __main__ - INFO - Received /stream_audio request for file: 5099564d-fc30-4284-8995-8a4b413c40d8_response.mp3
+2024-09-29 17:57:45,313 - __main__ - INFO - Received /gather request
+2024-09-29 17:57:48,702 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:57:48,702 - __main__ - DEBUG - Speech received: September.
+2024-09-29 17:57:48,702 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:57:49,208 - __main__ - DEBUG - Transcription time: 0.5060474872589111 seconds
+2024-09-29 17:57:50,095 - __main__ - DEBUG - Response generation time: 0.886699914932251 seconds
+2024-09-29 17:57:52,068 - __main__ - DEBUG - TTS generation time: 1.9731016159057617 seconds
+2024-09-29 17:57:52,068 - __main__ - DEBUG - Handle transcription time: 2.8598015308380127 seconds
+2024-09-29 17:57:52,068 - __main__ - DEBUG - Total process_speech time: 3.365849018096924 seconds
+2024-09-29 17:57:52,234 - __main__ - INFO - Received /stream_audio request for file: 5099564d-fc30-4284-8995-8a4b413c40d8_response.mp3
+2024-09-29 17:57:59,065 - __main__ - INFO - Received /gather request
+2024-09-29 17:58:02,498 - __main__ - INFO - Received /process_speech request
+2024-09-29 17:58:02,498 - __main__ - DEBUG - Speech received: At the temple.
+2024-09-29 17:58:02,498 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 17:58:03,003 - __main__ - DEBUG - Transcription time: 0.5044655799865723 seconds
+2024-09-29 17:58:05,383 - __main__ - ERROR - Error in handle_speech_transcription: Unterminated string starting at: line 1 column 129 (char 128)
+Traceback (most recent call last):
+  File "C:\Users\91807\Desktop\0_call_assist\app.py", line 123, in handle_speech_transcription
+    response_text = gpt4o_mini_integration.generate_response_with_context(speech_transcription, conversation_history)
+  File "C:\Users\91807\Desktop\0_call_assist\gpt4o_mini_integration.py", line 86, in generate_response_with_context
+    arguments = json.loads(message["function_call"]["arguments"])
+  File "C:\Users\91807\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\91807\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\91807\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 129 (char 128)
+2024-09-29 17:58:05,383 - __main__ - DEBUG - Handle transcription time: 2.3804752826690674 seconds
+2024-09-29 17:58:05,383 - __main__ - DEBUG - Total process_speech time: 2.8849408626556396 seconds
+2024-09-29 17:58:09,335 - __main__ - INFO - Received /gather request
+2024-09-29 18:26:42,092 - __main__ - INFO - Received /voice request
+2024-09-29 18:26:42,100 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Albany Hindu Temple. How can I assist you today?
+2024-09-29 18:26:43,990 - __main__ - DEBUG - Initial message handling time: 1.8947038650512695 seconds
+2024-09-29 18:26:44,170 - __main__ - INFO - Received /stream_audio request for file: 1f7bdae4-5507-49dc-b8e0-803ef6f59951_initial_message.mp3
+2024-09-29 18:26:48,788 - __main__ - INFO - Received /gather request
+2024-09-29 18:27:26,247 - __main__ - INFO - Received /voice request
+2024-09-29 18:27:26,249 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Albany Hindu Temple. How can I assist you today?
+2024-09-29 18:27:28,167 - __main__ - DEBUG - Initial message handling time: 1.9178965091705322 seconds
+2024-09-29 18:27:28,320 - __main__ - INFO - Received /stream_audio request for file: 24bc7450-fd7c-4ec8-9108-8c8f486bbe3a_initial_message.mp3
+2024-09-29 18:27:32,472 - __main__ - INFO - Received /gather request
+2024-09-29 18:27:36,371 - __main__ - INFO - Received /process_speech request
+2024-09-29 18:27:36,383 - __main__ - DEBUG - Speech received: I would like to make a bouquet.
+2024-09-29 18:27:36,383 - __main__ - DEBUG - Speech recognition time: 0.010244131088256836 seconds
+2024-09-29 18:27:36,871 - __main__ - DEBUG - Transcription time: 0.4880537986755371 seconds
+2024-09-29 18:27:38,259 - __main__ - DEBUG - Response generation time: 1.3877582550048828 seconds
+2024-09-29 18:27:40,831 - __main__ - DEBUG - TTS generation time: 2.571739435195923 seconds
+2024-09-29 18:27:40,833 - __main__ - DEBUG - Handle transcription time: 3.961421012878418 seconds
+2024-09-29 18:27:40,833 - __main__ - DEBUG - Total process_speech time: 4.460223436355591 seconds
+2024-09-29 18:27:41,016 - __main__ - INFO - Received /stream_audio request for file: 24bc7450-fd7c-4ec8-9108-8c8f486bbe3a_response.mp3
+2024-09-29 18:27:50,165 - __main__ - INFO - Received /gather request
+2024-09-29 18:27:53,933 - __main__ - INFO - Received /process_speech request
+2024-09-29 18:27:53,934 - __main__ - DEBUG - Speech received: Yeah.
+2024-09-29 18:27:53,934 - __main__ - DEBUG - Speech recognition time: 0.00099945068359375 seconds
+2024-09-29 18:27:54,434 - __main__ - DEBUG - Transcription time: 0.5000123977661133 seconds
+2024-09-29 18:27:55,120 - __main__ - DEBUG - Response generation time: 0.6865406036376953 seconds
+2024-09-29 18:27:56,702 - __main__ - DEBUG - TTS generation time: 1.581803560256958 seconds
+2024-09-29 18:27:56,703 - __main__ - DEBUG - Handle transcription time: 2.269364833831787 seconds
+2024-09-29 18:27:56,703 - __main__ - DEBUG - Total process_speech time: 2.770376682281494 seconds
+2024-09-29 18:27:56,855 - __main__ - INFO - Received /stream_audio request for file: 24bc7450-fd7c-4ec8-9108-8c8f486bbe3a_response.mp3
+2024-09-29 18:27:59,388 - __main__ - INFO - Received /gather request
+2024-09-29 18:28:04,407 - __main__ - INFO - Received /process_speech request
+2024-09-29 18:28:04,407 - __main__ - DEBUG - Speech received: I would like to book a Ganesh Puja.
+2024-09-29 18:28:04,408 - __main__ - DEBUG - Speech recognition time: 0.0010602474212646484 seconds
+2024-09-29 18:28:04,908 - __main__ - DEBUG - Transcription time: 0.5001091957092285 seconds
+2024-09-29 18:28:05,526 - __main__ - DEBUG - Response generation time: 0.6179568767547607 seconds
+2024-09-29 18:28:07,192 - __main__ - DEBUG - TTS generation time: 1.6649816036224365 seconds
+2024-09-29 18:28:07,193 - __main__ - DEBUG - Handle transcription time: 2.2849273681640625 seconds
+2024-09-29 18:28:07,193 - __main__ - DEBUG - Total process_speech time: 2.7860968112945557 seconds
+2024-09-29 18:28:07,361 - __main__ - INFO - Received /stream_audio request for file: 24bc7450-fd7c-4ec8-9108-8c8f486bbe3a_response.mp3
+2024-09-29 18:28:11,338 - __main__ - INFO - Received /gather request
+2024-09-29 18:28:18,349 - __main__ - INFO - Received /process_speech request
+2024-09-29 18:28:18,350 - __main__ - DEBUG - Speech received: Denny's on 10th of October.
+2024-09-29 18:28:18,350 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 18:28:18,852 - __main__ - DEBUG - Transcription time: 0.5018520355224609 seconds
+2024-09-29 18:28:19,672 - __main__ - DEBUG - Response generation time: 0.8200702667236328 seconds
+2024-09-29 18:28:21,490 - __main__ - DEBUG - TTS generation time: 1.8175907135009766 seconds
+2024-09-29 18:28:21,491 - __main__ - DEBUG - Handle transcription time: 2.6386618614196777 seconds
+2024-09-29 18:28:21,491 - __main__ - DEBUG - Total process_speech time: 3.1405138969421387 seconds
+2024-09-29 18:28:21,642 - __main__ - INFO - Received /stream_audio request for file: 24bc7450-fd7c-4ec8-9108-8c8f486bbe3a_response.mp3
+2024-09-29 18:28:26,715 - __main__ - INFO - Received /gather request
+2024-09-29 18:28:30,919 - __main__ - INFO - Received /process_speech request
+2024-09-29 18:28:30,921 - __main__ - DEBUG - Speech received: Yakinge a.m. is fine.
+2024-09-29 18:28:30,921 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 18:28:31,422 - __main__ - DEBUG - Transcription time: 0.5003924369812012 seconds
+2024-09-29 18:28:32,215 - __main__ - DEBUG - Response generation time: 0.7930788993835449 seconds
+2024-09-29 18:28:34,343 - __main__ - DEBUG - TTS generation time: 2.128166913986206 seconds
+2024-09-29 18:28:34,344 - __main__ - DEBUG - Handle transcription time: 2.92224383354187 seconds
+2024-09-29 18:28:34,345 - __main__ - DEBUG - Total process_speech time: 3.424635887145996 seconds
+2024-09-29 18:28:34,530 - __main__ - INFO - Received /stream_audio request for file: 24bc7450-fd7c-4ec8-9108-8c8f486bbe3a_response.mp3
+2024-09-29 18:28:41,206 - __main__ - INFO - Received /gather request
+2024-09-29 18:28:45,008 - __main__ - INFO - Received /process_speech request
+2024-09-29 18:28:45,010 - __main__ - DEBUG - Speech received: My name is human.
+2024-09-29 18:28:45,010 - __main__ - DEBUG - Speech recognition time: 0.0014693737030029297 seconds
+2024-09-29 18:28:45,510 - __main__ - DEBUG - Transcription time: 0.5004501342773438 seconds
+2024-09-29 18:28:46,476 - __main__ - DEBUG - Response generation time: 0.9645438194274902 seconds
+2024-09-29 18:28:48,039 - __main__ - DEBUG - TTS generation time: 1.5632281303405762 seconds
+2024-09-29 18:28:48,040 - __main__ - DEBUG - Handle transcription time: 2.530205488204956 seconds
+2024-09-29 18:28:48,042 - __main__ - DEBUG - Total process_speech time: 3.0335941314697266 seconds
+2024-09-29 18:28:48,218 - __main__ - INFO - Received /stream_audio request for file: 24bc7450-fd7c-4ec8-9108-8c8f486bbe3a_response.mp3
+2024-09-29 18:28:51,717 - __main__ - INFO - Received /gather request
+2024-09-29 18:28:56,712 - __main__ - INFO - Received /process_speech request
+2024-09-29 18:28:56,713 - __main__ - DEBUG - Speech received: It's someone at gmail.com.
+2024-09-29 18:28:56,714 - __main__ - DEBUG - Speech recognition time: 0.0009930133819580078 seconds
+2024-09-29 18:28:57,214 - __main__ - DEBUG - Transcription time: 0.5000567436218262 seconds
+2024-09-29 18:28:57,987 - __main__ - DEBUG - Response generation time: 0.7732932567596436 seconds
+2024-09-29 18:28:59,662 - __main__ - DEBUG - TTS generation time: 1.674389362335205 seconds
+2024-09-29 18:28:59,664 - __main__ - DEBUG - Handle transcription time: 2.449622869491577 seconds
+2024-09-29 18:28:59,664 - __main__ - DEBUG - Total process_speech time: 2.9516470432281494 seconds
+2024-09-29 18:28:59,831 - __main__ - INFO - Received /stream_audio request for file: 24bc7450-fd7c-4ec8-9108-8c8f486bbe3a_response.mp3
+2024-09-29 18:29:02,672 - __main__ - INFO - Received /gather request
+2024-09-29 18:29:08,495 - __main__ - INFO - Received /process_speech request
+2024-09-29 18:29:08,496 - __main__ - DEBUG - Speech received: It's filing 8508 5938.
+2024-09-29 18:29:08,496 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-09-29 18:29:08,997 - __main__ - DEBUG - Transcription time: 0.5011160373687744 seconds
+2024-09-29 18:29:11,635 - __main__ - DEBUG - Response generation time: 2.6374759674072266 seconds
+2024-09-29 18:29:13,749 - __main__ - DEBUG - TTS generation time: 2.113701343536377 seconds
+2024-09-29 18:29:13,749 - __main__ - DEBUG - Handle transcription time: 4.752210378646851 seconds
+2024-09-29 18:29:13,749 - __main__ - DEBUG - Total process_speech time: 5.253326416015625 seconds
+2024-09-29 18:29:13,911 - __main__ - INFO - Received /stream_audio request for file: 24bc7450-fd7c-4ec8-9108-8c8f486bbe3a_response.mp3
+2024-09-29 18:29:19,334 - __main__ - INFO - Received /gather request
+2024-09-29 18:29:22,738 - __main__ - INFO - Received /process_speech request
+2024-09-29 18:29:22,740 - __main__ - DEBUG - Speech received: At my home.
+2024-09-29 18:29:22,740 - __main__ - DEBUG - Speech recognition time: 0.001004934310913086 seconds
+2024-09-29 18:29:23,240 - __main__ - DEBUG - Transcription time: 0.5007717609405518 seconds
+2024-09-29 18:29:26,363 - __main__ - DEBUG - Response generation time: 3.12223482131958 seconds
+2024-09-29 18:29:28,603 - __main__ - DEBUG - TTS generation time: 2.2406392097473145 seconds
+2024-09-29 18:29:28,605 - __main__ - DEBUG - Handle transcription time: 5.36484956741333 seconds
+2024-09-29 18:29:28,606 - __main__ - DEBUG - Total process_speech time: 5.867626428604126 seconds
+2024-09-29 18:29:28,794 - __main__ - INFO - Received /stream_audio request for file: 24bc7450-fd7c-4ec8-9108-8c8f486bbe3a_response.mp3
+2024-09-29 18:29:35,377 - __main__ - INFO - Received /gather request
+2024-09-29 18:29:42,800 - __main__ - INFO - Received /process_speech request
+2024-09-29 18:29:42,802 - __main__ - DEBUG - Speech received: yeah, it'll be on October 10th 2024, 10 a.m.
+2024-09-29 18:29:42,802 - __main__ - DEBUG - Speech recognition time: 0.0009989738464355469 seconds
+2024-09-29 18:29:43,302 - __main__ - DEBUG - Transcription time: 0.500145673751831 seconds
+2024-09-29 18:29:47,668 - __main__ - DEBUG - Response generation time: 4.3649797439575195 seconds
+2024-09-29 18:29:48,299 - __main__ - DEBUG - TTS generation time: 0.6313261985778809 seconds
+2024-09-29 18:29:48,299 - __main__ - DEBUG - Handle transcription time: 4.997307300567627 seconds
+2024-09-29 18:29:48,300 - __main__ - DEBUG - Total process_speech time: 5.499451637268066 seconds
+2024-09-29 18:29:52,127 - __main__ - INFO - Received /gather request
+2024-10-01 09:41:34,884 - __main__ - INFO - Received /voice request
+2024-10-01 09:41:34,884 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Albany Hindu Temple. How can I assist you today?
+2024-10-01 09:41:35,529 - __main__ - DEBUG - Initial message handling time: 0.6449098587036133 seconds
+2024-10-01 09:41:35,669 - __main__ - INFO - Received /gather request
+2024-10-01 09:44:02,419 - __main__ - INFO - Received /voice request
+2024-10-01 09:44:02,419 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Albany Hindu Temple. How can I assist you today?
+2024-10-01 09:44:04,071 - __main__ - DEBUG - Initial message handling time: 1.6524481773376465 seconds
+2024-10-01 09:44:04,218 - __main__ - INFO - Received /stream_audio request for file: 908b2771-b65d-474e-9039-67c806b280ee_initial_message.mp3
+2024-10-01 09:44:08,585 - __main__ - INFO - Received /gather request
+2024-10-01 09:44:16,092 - __main__ - INFO - Received /process_speech request
+2024-10-01 09:44:16,101 - __main__ - DEBUG - Speech received: hi, I would like to know about the temple timings
+2024-10-01 09:44:16,101 - __main__ - DEBUG - Speech recognition time: 0.008507966995239258 seconds
+2024-10-01 09:44:16,602 - __main__ - DEBUG - Transcription time: 0.5009613037109375 seconds
+2024-10-01 09:44:18,202 - __main__ - DEBUG - Response generation time: 1.6005809307098389 seconds
+2024-10-01 09:44:21,991 - __main__ - DEBUG - TTS generation time: 3.7889719009399414 seconds
+2024-10-01 09:44:21,994 - __main__ - DEBUG - Handle transcription time: 5.3923985958099365 seconds
+2024-10-01 09:44:21,995 - __main__ - DEBUG - Total process_speech time: 5.902068138122559 seconds
+2024-10-01 09:44:22,163 - __main__ - INFO - Received /stream_audio request for file: 908b2771-b65d-474e-9039-67c806b280ee_response.mp3
+2024-10-01 09:44:39,410 - __main__ - INFO - Received /gather request
+2024-10-01 09:44:44,863 - __main__ - INFO - Received /process_speech request
+2024-10-01 09:44:44,863 - __main__ - DEBUG - Speech received: I would like to book a poodle.
+2024-10-01 09:44:44,863 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 09:44:45,369 - __main__ - DEBUG - Transcription time: 0.5063714981079102 seconds
+2024-10-01 09:44:46,577 - __main__ - DEBUG - Response generation time: 1.2078218460083008 seconds
+2024-10-01 09:44:48,364 - __main__ - DEBUG - TTS generation time: 1.7868361473083496 seconds
+2024-10-01 09:44:48,364 - __main__ - DEBUG - Handle transcription time: 2.9946579933166504 seconds
+2024-10-01 09:44:48,364 - __main__ - DEBUG - Total process_speech time: 3.5010294914245605 seconds
+2024-10-01 09:44:48,530 - __main__ - INFO - Received /stream_audio request for file: 908b2771-b65d-474e-9039-67c806b280ee_response.mp3
+2024-10-01 09:44:54,263 - __main__ - INFO - Received /gather request
+2024-10-01 09:45:03,268 - __main__ - INFO - Received /process_speech request
+2024-10-01 09:45:03,268 - __main__ - DEBUG - Speech received: Play Buju.
+2024-10-01 09:45:03,268 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 09:45:03,777 - __main__ - DEBUG - Transcription time: 0.5090184211730957 seconds
+2024-10-01 09:45:04,997 - __main__ - DEBUG - Response generation time: 1.219430923461914 seconds
+2024-10-01 09:45:07,682 - __main__ - DEBUG - TTS generation time: 2.6855945587158203 seconds
+2024-10-01 09:45:07,682 - __main__ - DEBUG - Handle transcription time: 3.9050254821777344 seconds
+2024-10-01 09:45:07,682 - __main__ - DEBUG - Total process_speech time: 4.41404390335083 seconds
+2024-10-01 09:45:07,873 - __main__ - INFO - Received /stream_audio request for file: 908b2771-b65d-474e-9039-67c806b280ee_response.mp3
+2024-10-01 09:45:18,421 - __main__ - INFO - Received /gather request
+2024-10-01 09:45:22,620 - __main__ - INFO - Received /process_speech request
+2024-10-01 09:45:22,620 - __main__ - DEBUG - Speech received: Laxmi Puja.
+2024-10-01 09:45:22,620 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 09:45:23,136 - __main__ - DEBUG - Transcription time: 0.5155029296875 seconds
+2024-10-01 09:45:23,972 - __main__ - DEBUG - Response generation time: 0.8363463878631592 seconds
+2024-10-01 09:45:26,120 - __main__ - DEBUG - TTS generation time: 2.1482691764831543 seconds
+2024-10-01 09:45:26,120 - __main__ - DEBUG - Handle transcription time: 2.9846155643463135 seconds
+2024-10-01 09:45:26,120 - __main__ - DEBUG - Total process_speech time: 3.500725269317627 seconds
+2024-10-01 09:45:26,275 - __main__ - INFO - Received /stream_audio request for file: 908b2771-b65d-474e-9039-67c806b280ee_response.mp3
+2024-10-01 09:45:32,158 - __main__ - INFO - Received /gather request
+2024-10-01 09:45:36,693 - __main__ - INFO - Received /process_speech request
+2024-10-01 09:45:36,698 - __main__ - DEBUG - Speech received: 11th October.
+2024-10-01 09:45:36,698 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 09:45:37,213 - __main__ - DEBUG - Transcription time: 0.5152199268341064 seconds
+2024-10-01 09:45:38,896 - __main__ - DEBUG - Response generation time: 1.6822750568389893 seconds
+2024-10-01 09:45:40,786 - __main__ - DEBUG - TTS generation time: 1.889453649520874 seconds
+2024-10-01 09:45:40,786 - __main__ - DEBUG - Handle transcription time: 3.5727241039276123 seconds
+2024-10-01 09:45:40,786 - __main__ - DEBUG - Total process_speech time: 4.087944030761719 seconds
+2024-10-01 09:45:40,948 - __main__ - INFO - Received /stream_audio request for file: 908b2771-b65d-474e-9039-67c806b280ee_response.mp3
+2024-10-01 09:45:45,657 - __main__ - INFO - Received /gather request
+2024-10-01 09:45:51,033 - __main__ - INFO - Received /process_speech request
+2024-10-01 09:45:51,033 - __main__ - DEBUG - Speech received: Can we do 9:30 a.m.?
+2024-10-01 09:45:51,033 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 09:45:51,534 - __main__ - DEBUG - Transcription time: 0.50099778175354 seconds
+2024-10-01 09:45:52,405 - __main__ - DEBUG - Response generation time: 0.8709228038787842 seconds
+2024-10-01 09:45:53,905 - __main__ - DEBUG - TTS generation time: 1.5000476837158203 seconds
+2024-10-01 09:45:53,905 - __main__ - DEBUG - Handle transcription time: 2.3709704875946045 seconds
+2024-10-01 09:45:53,905 - __main__ - DEBUG - Total process_speech time: 2.8719682693481445 seconds
+2024-10-01 09:45:54,039 - __main__ - INFO - Received /stream_audio request for file: 908b2771-b65d-474e-9039-67c806b280ee_response.mp3
+2024-10-01 09:45:57,278 - __main__ - INFO - Received /gather request
+2024-10-01 09:46:01,462 - __main__ - INFO - Received /process_speech request
+2024-10-01 09:46:01,462 - __main__ - DEBUG - Speech received: Summon.
+2024-10-01 09:46:01,462 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 09:46:01,974 - __main__ - DEBUG - Transcription time: 0.5115423202514648 seconds
+2024-10-01 09:46:03,107 - __main__ - DEBUG - Response generation time: 1.1329917907714844 seconds
+2024-10-01 09:46:05,269 - __main__ - DEBUG - TTS generation time: 2.1624858379364014 seconds
+2024-10-01 09:46:05,269 - __main__ - DEBUG - Handle transcription time: 3.2954776287078857 seconds
+2024-10-01 09:46:05,269 - __main__ - DEBUG - Total process_speech time: 3.8070199489593506 seconds
+2024-10-01 09:46:05,424 - __main__ - INFO - Received /stream_audio request for file: 908b2771-b65d-474e-9039-67c806b280ee_response.mp3
+2024-10-01 09:46:12,499 - __main__ - INFO - Received /gather request
+2024-10-01 09:46:16,659 - __main__ - INFO - Received /process_speech request
+2024-10-01 09:46:16,659 - __main__ - DEBUG - Speech received: My name is Suman.
+2024-10-01 09:46:16,659 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 09:46:17,160 - __main__ - DEBUG - Transcription time: 0.500579833984375 seconds
+2024-10-01 09:46:17,889 - __main__ - DEBUG - Response generation time: 0.72920823097229 seconds
+2024-10-01 09:46:19,995 - __main__ - DEBUG - TTS generation time: 2.1066503524780273 seconds
+2024-10-01 09:46:19,996 - __main__ - DEBUG - Handle transcription time: 2.8367061614990234 seconds
+2024-10-01 09:46:19,997 - __main__ - DEBUG - Total process_speech time: 3.338289260864258 seconds
+2024-10-01 09:46:20,140 - __main__ - INFO - Received /stream_audio request for file: 908b2771-b65d-474e-9039-67c806b280ee_response.mp3
+2024-10-01 09:46:23,834 - __main__ - INFO - Received /gather request
+2024-10-01 09:46:28,477 - __main__ - INFO - Received /process_speech request
+2024-10-01 09:46:28,477 - __main__ - DEBUG - Speech received: Two-month-old gmail.com.
+2024-10-01 09:46:28,477 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 09:46:28,983 - __main__ - DEBUG - Transcription time: 0.5063791275024414 seconds
+2024-10-01 09:46:29,678 - __main__ - DEBUG - Response generation time: 0.6946239471435547 seconds
+2024-10-01 09:46:31,334 - __main__ - DEBUG - TTS generation time: 1.6554088592529297 seconds
+2024-10-01 09:46:31,334 - __main__ - DEBUG - Handle transcription time: 2.3500328063964844 seconds
+2024-10-01 09:46:31,334 - __main__ - DEBUG - Total process_speech time: 2.8567070960998535 seconds
+2024-10-01 09:46:31,501 - __main__ - INFO - Received /stream_audio request for file: 908b2771-b65d-474e-9039-67c806b280ee_response.mp3
+2024-10-01 09:46:36,465 - __main__ - INFO - Received /gather request
+2024-10-01 09:46:41,844 - __main__ - INFO - Received /process_speech request
+2024-10-01 09:46:41,844 - __main__ - DEBUG - Speech received: Kumon at gmail.com.
+2024-10-01 09:46:41,844 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 09:46:42,359 - __main__ - DEBUG - Transcription time: 0.5148932933807373 seconds
+2024-10-01 09:46:43,160 - __main__ - DEBUG - Response generation time: 0.8006608486175537 seconds
+2024-10-01 09:46:44,629 - __main__ - DEBUG - TTS generation time: 1.4691152572631836 seconds
+2024-10-01 09:46:44,629 - __main__ - DEBUG - Handle transcription time: 2.2697761058807373 seconds
+2024-10-01 09:46:44,629 - __main__ - DEBUG - Total process_speech time: 2.7846693992614746 seconds
+2024-10-01 09:46:44,887 - __main__ - INFO - Received /stream_audio request for file: 908b2771-b65d-474e-9039-67c806b280ee_response.mp3
+2024-10-01 09:46:48,254 - __main__ - INFO - Received /gather request
+2024-10-01 09:46:54,827 - __main__ - INFO - Received /process_speech request
+2024-10-01 09:46:54,827 - __main__ - DEBUG - Speech received: It's 518-528-5938.
+2024-10-01 09:46:54,827 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 09:46:55,338 - __main__ - DEBUG - Transcription time: 0.5114419460296631 seconds
+2024-10-01 09:46:56,125 - __main__ - DEBUG - Response generation time: 0.786445140838623 seconds
+2024-10-01 09:46:58,078 - __main__ - DEBUG - TTS generation time: 1.9534430503845215 seconds
+2024-10-01 09:46:58,078 - __main__ - DEBUG - Handle transcription time: 2.7398881912231445 seconds
+2024-10-01 09:46:58,078 - __main__ - DEBUG - Total process_speech time: 3.2513301372528076 seconds
+2024-10-01 09:46:58,216 - __main__ - INFO - Received /stream_audio request for file: 908b2771-b65d-474e-9039-67c806b280ee_response.mp3
+2024-10-01 09:47:02,711 - __main__ - INFO - Received /gather request
+2024-10-01 09:47:06,515 - __main__ - INFO - Received /process_speech request
+2024-10-01 09:47:06,517 - __main__ - DEBUG - Speech received: At the temple.
+2024-10-01 09:47:06,517 - __main__ - DEBUG - Speech recognition time: 0.000993967056274414 seconds
+2024-10-01 09:47:07,029 - __main__ - DEBUG - Transcription time: 0.5119400024414062 seconds
+2024-10-01 09:47:09,599 - __main__ - DEBUG - Response generation time: 2.5700721740722656 seconds
+2024-10-01 09:47:13,790 - __main__ - DEBUG - TTS generation time: 4.1911280155181885 seconds
+2024-10-01 09:47:13,790 - __main__ - DEBUG - Handle transcription time: 6.761200189590454 seconds
+2024-10-01 09:47:13,790 - __main__ - DEBUG - Total process_speech time: 7.274134159088135 seconds
+2024-10-01 09:47:13,949 - __main__ - INFO - Received /stream_audio request for file: 908b2771-b65d-474e-9039-67c806b280ee_response.mp3
+2024-10-01 09:47:24,758 - __main__ - INFO - Received /gather request
+2024-10-01 09:47:30,538 - __main__ - INFO - Received /process_speech request
+2024-10-01 09:47:30,539 - __main__ - DEBUG - Speech received: I would like to book on October 11th 2024.
+2024-10-01 09:47:30,540 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 09:47:31,042 - __main__ - DEBUG - Transcription time: 0.5018575191497803 seconds
+2024-10-01 09:47:32,559 - __main__ - DEBUG - Response generation time: 1.517029047012329 seconds
+2024-10-01 09:47:34,310 - __main__ - DEBUG - TTS generation time: 1.7511532306671143 seconds
+2024-10-01 09:47:34,326 - __main__ - DEBUG - Handle transcription time: 3.28395414352417 seconds
+2024-10-01 09:47:34,326 - __main__ - DEBUG - Total process_speech time: 3.7868082523345947 seconds
+2024-10-01 09:47:34,486 - __main__ - INFO - Received /stream_audio request for file: 908b2771-b65d-474e-9039-67c806b280ee_response.mp3
+2024-10-01 09:47:39,779 - __main__ - INFO - Received /gather request
+2024-10-01 09:47:43,525 - __main__ - INFO - Received /process_speech request
+2024-10-01 09:47:43,525 - __main__ - DEBUG - Speech received: 9:30 a.m.
+2024-10-01 09:47:43,525 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 09:47:44,034 - __main__ - DEBUG - Transcription time: 0.5089313983917236 seconds
+2024-10-01 09:47:45,775 - __main__ - DEBUG - Response generation time: 1.7409143447875977 seconds
+2024-10-01 09:47:53,087 - __main__ - DEBUG - TTS generation time: 7.3117382526397705 seconds
+2024-10-01 09:47:53,090 - __main__ - DEBUG - Handle transcription time: 9.055665731430054 seconds
+2024-10-01 09:47:53,090 - __main__ - DEBUG - Total process_speech time: 9.565112113952637 seconds
+2024-10-01 09:47:53,261 - __main__ - INFO - Received /stream_audio request for file: 908b2771-b65d-474e-9039-67c806b280ee_response.mp3
+2024-10-01 09:48:24,795 - __main__ - INFO - Received /gather request
+2024-10-01 09:48:32,844 - __main__ - INFO - Received /process_speech request
+2024-10-01 09:48:32,847 - __main__ - DEBUG - Speech received: Yeah.
+2024-10-01 09:48:32,847 - __main__ - DEBUG - Speech recognition time: 0.002862691879272461 seconds
+2024-10-01 09:48:33,351 - __main__ - DEBUG - Transcription time: 0.5041654109954834 seconds
+2024-10-01 09:48:37,567 - __main__ - DEBUG - Response generation time: 4.215769052505493 seconds
+2024-10-01 09:48:40,905 - __main__ - DEBUG - TTS generation time: 3.3384456634521484 seconds
+2024-10-01 09:48:40,905 - __main__ - DEBUG - Handle transcription time: 7.554214715957642 seconds
+2024-10-01 09:48:40,905 - __main__ - DEBUG - Total process_speech time: 8.061242818832397 seconds
+2024-10-01 09:48:41,056 - __main__ - INFO - Received /stream_audio request for file: 908b2771-b65d-474e-9039-67c806b280ee_response.mp3
+2024-10-01 09:48:45,512 - __main__ - INFO - Received /gather request
+2024-10-01 11:34:13,222 - __main__ - INFO - Received /voice request
+2024-10-01 11:34:13,222 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Albany Hindu Temple. How can I assist you today?
+2024-10-01 11:34:15,315 - __main__ - DEBUG - Initial message handling time: 2.093024253845215 seconds
+2024-10-01 11:34:15,476 - __main__ - INFO - Received /stream_audio request for file: 67efeed1-5868-41ba-a132-70f12360dca0_initial_message.mp3
+2024-10-01 11:34:20,797 - __main__ - INFO - Received /gather request
+2024-10-01 11:41:51,354 - __main__ - INFO - Received /voice request
+2024-10-01 11:41:51,355 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Albany Hindu Temple. How can I assist you today?
+2024-10-01 11:41:53,002 - __main__ - DEBUG - Initial message handling time: 1.6469056606292725 seconds
+2024-10-01 11:41:53,146 - __main__ - INFO - Received /stream_audio request for file: bcf5879f-a965-4741-accd-3304a6cd57aa_initial_message.mp3
+2024-10-01 11:41:57,611 - __main__ - INFO - Received /gather request
+2024-10-01 11:42:02,662 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:42:02,663 - __main__ - DEBUG - Speech received: I would like to make a
+2024-10-01 11:42:02,663 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 11:42:03,164 - __main__ - DEBUG - Transcription time: 0.5010190010070801 seconds
+2024-10-01 11:42:03,933 - __main__ - DEBUG - Response generation time: 0.7673006057739258 seconds
+2024-10-01 11:42:05,656 - __main__ - DEBUG - TTS generation time: 1.7231383323669434 seconds
+2024-10-01 11:42:05,656 - __main__ - DEBUG - Handle transcription time: 2.4915874004364014 seconds
+2024-10-01 11:42:05,656 - __main__ - DEBUG - Total process_speech time: 2.9926064014434814 seconds
+2024-10-01 11:42:05,819 - __main__ - INFO - Received /stream_audio request for file: bcf5879f-a965-4741-accd-3304a6cd57aa_response.mp3
+2024-10-01 11:42:11,167 - __main__ - INFO - Received /gather request
+2024-10-01 11:42:20,478 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:42:20,484 - __main__ - DEBUG - Speech received: Latoya.
+2024-10-01 11:42:20,484 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 11:42:20,994 - __main__ - DEBUG - Transcription time: 0.5102815628051758 seconds
+2024-10-01 11:42:22,079 - __main__ - DEBUG - Response generation time: 1.0851516723632812 seconds
+2024-10-01 11:42:24,130 - __main__ - DEBUG - TTS generation time: 2.0481009483337402 seconds
+2024-10-01 11:42:24,132 - __main__ - DEBUG - Handle transcription time: 3.137300968170166 seconds
+2024-10-01 11:42:24,132 - __main__ - DEBUG - Total process_speech time: 3.647582530975342 seconds
+2024-10-01 11:42:24,275 - __main__ - INFO - Received /stream_audio request for file: bcf5879f-a965-4741-accd-3304a6cd57aa_response.mp3
+2024-10-01 11:42:31,402 - __main__ - INFO - Received /gather request
+2024-10-01 11:42:35,595 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:42:35,595 - __main__ - DEBUG - Speech received: Laxmi Puja.
+2024-10-01 11:42:35,595 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 11:42:36,104 - __main__ - DEBUG - Transcription time: 0.5088064670562744 seconds
+2024-10-01 11:42:36,897 - __main__ - DEBUG - Response generation time: 0.7932329177856445 seconds
+2024-10-01 11:42:38,691 - __main__ - DEBUG - TTS generation time: 1.791579008102417 seconds
+2024-10-01 11:42:38,691 - __main__ - DEBUG - Handle transcription time: 2.5864949226379395 seconds
+2024-10-01 11:42:38,691 - __main__ - DEBUG - Total process_speech time: 3.095301389694214 seconds
+2024-10-01 11:42:38,843 - __main__ - INFO - Received /stream_audio request for file: bcf5879f-a965-4741-accd-3304a6cd57aa_response.mp3
+2024-10-01 11:42:43,279 - __main__ - INFO - Received /gather request
+2024-10-01 11:42:50,335 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:42:50,340 - __main__ - DEBUG - Speech received: 10:30 on 15th, October.
+2024-10-01 11:42:50,340 - __main__ - DEBUG - Speech recognition time: 0.0055277347564697266 seconds
+2024-10-01 11:42:50,852 - __main__ - DEBUG - Transcription time: 0.5117535591125488 seconds
+2024-10-01 11:42:51,766 - __main__ - DEBUG - Response generation time: 0.9140110015869141 seconds
+2024-10-01 11:42:53,902 - __main__ - DEBUG - TTS generation time: 2.135836124420166 seconds
+2024-10-01 11:42:53,917 - __main__ - DEBUG - Handle transcription time: 3.0653157234191895 seconds
+2024-10-01 11:42:53,917 - __main__ - DEBUG - Total process_speech time: 3.582597017288208 seconds
+2024-10-01 11:42:54,127 - __main__ - INFO - Received /stream_audio request for file: bcf5879f-a965-4741-accd-3304a6cd57aa_response.mp3
+2024-10-01 11:42:57,272 - __main__ - INFO - Received /gather request
+2024-10-01 11:43:02,349 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:43:02,349 - __main__ - DEBUG - Speech received: It's Samantha.
+2024-10-01 11:43:02,349 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 11:43:02,863 - __main__ - DEBUG - Transcription time: 0.5134987831115723 seconds
+2024-10-01 11:43:03,543 - __main__ - DEBUG - Response generation time: 0.680595874786377 seconds
+2024-10-01 11:43:05,649 - __main__ - DEBUG - TTS generation time: 2.105517625808716 seconds
+2024-10-01 11:43:05,649 - __main__ - DEBUG - Handle transcription time: 2.7861135005950928 seconds
+2024-10-01 11:43:05,649 - __main__ - DEBUG - Total process_speech time: 3.299612283706665 seconds
+2024-10-01 11:43:05,790 - __main__ - INFO - Received /stream_audio request for file: bcf5879f-a965-4741-accd-3304a6cd57aa_response.mp3
+2024-10-01 11:43:09,216 - __main__ - INFO - Received /gather request
+2024-10-01 11:43:15,016 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:43:15,018 - __main__ - DEBUG - Speech received: Samantha at gmail.com?
+2024-10-01 11:43:15,018 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 11:43:15,533 - __main__ - DEBUG - Transcription time: 0.5143356323242188 seconds
+2024-10-01 11:43:16,341 - __main__ - DEBUG - Response generation time: 0.8076615333557129 seconds
+2024-10-01 11:43:17,873 - __main__ - DEBUG - TTS generation time: 1.531902551651001 seconds
+2024-10-01 11:43:17,873 - __main__ - DEBUG - Handle transcription time: 2.339564085006714 seconds
+2024-10-01 11:43:17,873 - __main__ - DEBUG - Total process_speech time: 2.8544232845306396 seconds
+2024-10-01 11:43:18,015 - __main__ - INFO - Received /stream_audio request for file: bcf5879f-a965-4741-accd-3304a6cd57aa_response.mp3
+2024-10-01 11:43:20,956 - __main__ - INFO - Received /gather request
+2024-10-01 11:43:26,903 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:43:26,917 - __main__ - DEBUG - Speech received: Yeah, it's 7:35. I 98.
+2024-10-01 11:43:26,917 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 11:43:27,431 - __main__ - DEBUG - Transcription time: 0.5136840343475342 seconds
+2024-10-01 11:43:28,375 - __main__ - DEBUG - Response generation time: 0.9442424774169922 seconds
+2024-10-01 11:43:30,315 - __main__ - DEBUG - TTS generation time: 1.9393465518951416 seconds
+2024-10-01 11:43:30,315 - __main__ - DEBUG - Handle transcription time: 2.883589029312134 seconds
+2024-10-01 11:43:30,315 - __main__ - DEBUG - Total process_speech time: 3.397273063659668 seconds
+2024-10-01 11:43:30,465 - __main__ - INFO - Received /stream_audio request for file: bcf5879f-a965-4741-accd-3304a6cd57aa_response.mp3
+2024-10-01 11:43:37,146 - __main__ - INFO - Received /gather request
+2024-10-01 11:43:43,049 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:43:43,050 - __main__ - DEBUG - Speech received: Psionic 528i 938.
+2024-10-01 11:43:43,050 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 11:43:43,553 - __main__ - DEBUG - Transcription time: 0.5033645629882812 seconds
+2024-10-01 11:43:44,604 - __main__ - DEBUG - Response generation time: 1.0504274368286133 seconds
+2024-10-01 11:43:47,667 - __main__ - DEBUG - TTS generation time: 3.0627100467681885 seconds
+2024-10-01 11:43:47,667 - __main__ - DEBUG - Handle transcription time: 4.113137483596802 seconds
+2024-10-01 11:43:47,667 - __main__ - DEBUG - Total process_speech time: 4.617381811141968 seconds
+2024-10-01 11:43:47,849 - __main__ - INFO - Received /stream_audio request for file: bcf5879f-a965-4741-accd-3304a6cd57aa_response.mp3
+2024-10-01 11:44:01,248 - __main__ - INFO - Received /gather request
+2024-10-01 11:44:08,258 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:44:08,261 - __main__ - DEBUG - Speech received: 518-528-5938.
+2024-10-01 11:44:08,261 - __main__ - DEBUG - Speech recognition time: 0.001004934310913086 seconds
+2024-10-01 11:44:08,774 - __main__ - DEBUG - Transcription time: 0.5122590065002441 seconds
+2024-10-01 11:44:09,699 - __main__ - DEBUG - Response generation time: 0.9248173236846924 seconds
+2024-10-01 11:44:11,728 - __main__ - DEBUG - TTS generation time: 2.0291507244110107 seconds
+2024-10-01 11:44:11,728 - __main__ - DEBUG - Handle transcription time: 2.953968048095703 seconds
+2024-10-01 11:44:11,728 - __main__ - DEBUG - Total process_speech time: 3.4672319889068604 seconds
+2024-10-01 11:44:11,878 - __main__ - INFO - Received /stream_audio request for file: bcf5879f-a965-4741-accd-3304a6cd57aa_response.mp3
+2024-10-01 11:44:17,079 - __main__ - INFO - Received /gather request
+2024-10-01 11:44:20,453 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:44:20,454 - __main__ - DEBUG - Speech received: At home.
+2024-10-01 11:44:20,456 - __main__ - DEBUG - Speech recognition time: 0.002393960952758789 seconds
+2024-10-01 11:44:20,962 - __main__ - DEBUG - Transcription time: 0.5053038597106934 seconds
+2024-10-01 11:44:23,517 - __main__ - ERROR - Error in handle_speech_transcription: Unterminated string starting at: line 1 column 114 (char 113)
+Traceback (most recent call last):
+  File "C:\Users\91807\Desktop\AI_call_handler\app.py", line 123, in handle_speech_transcription
+    response_text = gpt4o_mini_integration.generate_response_with_context(speech_transcription, conversation_history)
+  File "C:\Users\91807\Desktop\AI_call_handler\gpt4o_mini_integration.py", line 86, in generate_response_with_context
+    arguments = json.loads(message["function_call"]["arguments"])
+  File "C:\Users\91807\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\91807\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\91807\AppData\Local\Programs\Python\Python38\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 114 (char 113)
+2024-10-01 11:44:23,700 - __main__ - DEBUG - Handle transcription time: 2.738630771636963 seconds
+2024-10-01 11:44:23,700 - __main__ - DEBUG - Total process_speech time: 3.246328592300415 seconds
+2024-10-01 11:44:27,522 - __main__ - INFO - Received /gather request
+2024-10-01 11:48:26,558 - __main__ - INFO - Received /voice request
+2024-10-01 11:48:26,558 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Albany Hindu Temple. How can I assist you today?
+2024-10-01 11:48:28,516 - __main__ - DEBUG - Initial message handling time: 1.95778226852417 seconds
+2024-10-01 11:48:28,684 - __main__ - INFO - Received /stream_audio request for file: a135f2a0-ce5a-4535-9355-d68e420a72a2_initial_message.mp3
+2024-10-01 11:48:33,075 - __main__ - INFO - Received /gather request
+2024-10-01 11:48:37,398 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:48:37,402 - __main__ - DEBUG - Speech received: I would like to make a color book.
+2024-10-01 11:48:37,402 - __main__ - DEBUG - Speech recognition time: 0.0016055107116699219 seconds
+2024-10-01 11:48:37,907 - __main__ - DEBUG - Transcription time: 0.5043299198150635 seconds
+2024-10-01 11:48:38,798 - __main__ - DEBUG - Response generation time: 0.8915672302246094 seconds
+2024-10-01 11:48:41,890 - __main__ - DEBUG - TTS generation time: 3.0917344093322754 seconds
+2024-10-01 11:48:41,890 - __main__ - DEBUG - Handle transcription time: 3.9833016395568848 seconds
+2024-10-01 11:48:41,890 - __main__ - DEBUG - Total process_speech time: 4.489237070083618 seconds
+2024-10-01 11:48:42,038 - __main__ - INFO - Received /stream_audio request for file: a135f2a0-ce5a-4535-9355-d68e420a72a2_response.mp3
+2024-10-01 11:48:52,944 - __main__ - INFO - Received /gather request
+2024-10-01 11:48:57,238 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:48:57,238 - __main__ - DEBUG - Speech received: Yeah, I would like to schedule a booyah.
+2024-10-01 11:48:57,238 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 11:48:57,749 - __main__ - DEBUG - Transcription time: 0.5107889175415039 seconds
+2024-10-01 11:48:59,079 - __main__ - DEBUG - Response generation time: 1.3296456336975098 seconds
+2024-10-01 11:49:01,433 - __main__ - DEBUG - TTS generation time: 2.353854179382324 seconds
+2024-10-01 11:49:01,433 - __main__ - DEBUG - Handle transcription time: 3.683499813079834 seconds
+2024-10-01 11:49:01,433 - __main__ - DEBUG - Total process_speech time: 4.194288730621338 seconds
+2024-10-01 11:49:01,651 - __main__ - INFO - Received /stream_audio request for file: a135f2a0-ce5a-4535-9355-d68e420a72a2_response.mp3
+2024-10-01 11:49:11,885 - __main__ - INFO - Received /gather request
+2024-10-01 11:49:16,927 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:49:16,927 - __main__ - DEBUG - Speech received: It's Laxmi Puja.
+2024-10-01 11:49:16,932 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 11:49:17,442 - __main__ - DEBUG - Transcription time: 0.5097951889038086 seconds
+2024-10-01 11:49:18,127 - __main__ - DEBUG - Response generation time: 0.6850814819335938 seconds
+2024-10-01 11:49:19,765 - __main__ - DEBUG - TTS generation time: 1.6387660503387451 seconds
+2024-10-01 11:49:19,765 - __main__ - DEBUG - Handle transcription time: 2.323847532272339 seconds
+2024-10-01 11:49:19,765 - __main__ - DEBUG - Total process_speech time: 2.838648557662964 seconds
+2024-10-01 11:49:19,919 - __main__ - INFO - Received /stream_audio request for file: a135f2a0-ce5a-4535-9355-d68e420a72a2_response.mp3
+2024-10-01 11:49:24,695 - __main__ - INFO - Received /gather request
+2024-10-01 11:49:30,128 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:49:30,128 - __main__ - DEBUG - Speech received: on 11th October at 5 p.m.
+2024-10-01 11:49:30,128 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 11:49:30,630 - __main__ - DEBUG - Transcription time: 0.5014920234680176 seconds
+2024-10-01 11:49:31,303 - __main__ - DEBUG - Response generation time: 0.6724674701690674 seconds
+2024-10-01 11:49:33,192 - __main__ - DEBUG - TTS generation time: 1.8893275260925293 seconds
+2024-10-01 11:49:33,192 - __main__ - DEBUG - Handle transcription time: 2.5617949962615967 seconds
+2024-10-01 11:49:33,192 - __main__ - DEBUG - Total process_speech time: 3.063793897628784 seconds
+2024-10-01 11:49:33,346 - __main__ - INFO - Received /stream_audio request for file: a135f2a0-ce5a-4535-9355-d68e420a72a2_response.mp3
+2024-10-01 11:49:36,103 - __main__ - INFO - Received /gather request
+2024-10-01 11:49:39,227 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:49:39,227 - __main__ - DEBUG - Speech received: Sumanth.
+2024-10-01 11:49:39,227 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 11:49:39,741 - __main__ - DEBUG - Transcription time: 0.5135703086853027 seconds
+2024-10-01 11:49:40,669 - __main__ - DEBUG - Response generation time: 0.9276895523071289 seconds
+2024-10-01 11:49:42,391 - __main__ - DEBUG - TTS generation time: 1.7220165729522705 seconds
+2024-10-01 11:49:42,391 - __main__ - DEBUG - Handle transcription time: 2.6497061252593994 seconds
+2024-10-01 11:49:42,391 - __main__ - DEBUG - Total process_speech time: 3.163276433944702 seconds
+2024-10-01 11:49:42,551 - __main__ - INFO - Received /stream_audio request for file: a135f2a0-ce5a-4535-9355-d68e420a72a2_response.mp3
+2024-10-01 11:49:45,372 - __main__ - INFO - Received /gather request
+2024-10-01 11:49:50,799 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:49:50,800 - __main__ - DEBUG - Speech received: It's Samantha at gmail.com.
+2024-10-01 11:49:50,800 - __main__ - DEBUG - Speech recognition time: 0.0010132789611816406 seconds
+2024-10-01 11:49:51,305 - __main__ - DEBUG - Transcription time: 0.504845380783081 seconds
+2024-10-01 11:49:52,222 - __main__ - DEBUG - Response generation time: 0.9173123836517334 seconds
+2024-10-01 11:49:54,136 - __main__ - DEBUG - TTS generation time: 1.9135408401489258 seconds
+2024-10-01 11:49:54,136 - __main__ - DEBUG - Handle transcription time: 2.830853223800659 seconds
+2024-10-01 11:49:54,136 - __main__ - DEBUG - Total process_speech time: 3.336711883544922 seconds
+2024-10-01 11:49:54,316 - __main__ - INFO - Received /stream_audio request for file: a135f2a0-ce5a-4535-9355-d68e420a72a2_response.mp3
+2024-10-01 11:49:56,343 - __main__ - INFO - Received /gather request
+2024-10-01 11:50:02,980 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:50:02,980 - __main__ - DEBUG - Speech received: 518-528-5938.
+2024-10-01 11:50:02,980 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 11:50:03,495 - __main__ - DEBUG - Transcription time: 0.5149939060211182 seconds
+2024-10-01 11:50:04,306 - __main__ - DEBUG - Response generation time: 0.8118152618408203 seconds
+2024-10-01 11:50:06,251 - __main__ - DEBUG - TTS generation time: 1.944347620010376 seconds
+2024-10-01 11:50:06,251 - __main__ - DEBUG - Handle transcription time: 2.7561628818511963 seconds
+2024-10-01 11:50:06,251 - __main__ - DEBUG - Total process_speech time: 3.2711567878723145 seconds
+2024-10-01 11:50:06,392 - __main__ - INFO - Received /stream_audio request for file: a135f2a0-ce5a-4535-9355-d68e420a72a2_response.mp3
+2024-10-01 11:50:11,589 - __main__ - INFO - Received /gather request
+2024-10-01 11:50:15,066 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:50:15,066 - __main__ - DEBUG - Speech received: At home.
+2024-10-01 11:50:15,066 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 11:50:15,578 - __main__ - DEBUG - Transcription time: 0.512047529220581 seconds
+2024-10-01 11:50:18,235 - __main__ - DEBUG - Response generation time: 2.6564626693725586 seconds
+2024-10-01 11:50:20,037 - __main__ - DEBUG - TTS generation time: 1.8015124797821045 seconds
+2024-10-01 11:50:20,037 - __main__ - DEBUG - Handle transcription time: 4.458521842956543 seconds
+2024-10-01 11:50:20,037 - __main__ - DEBUG - Total process_speech time: 4.970569372177124 seconds
+2024-10-01 11:50:20,206 - __main__ - INFO - Received /stream_audio request for file: a135f2a0-ce5a-4535-9355-d68e420a72a2_response.mp3
+2024-10-01 11:50:26,221 - __main__ - INFO - Received /gather request
+2024-10-01 11:50:33,294 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:50:33,294 - __main__ - DEBUG - Speech received: I wanted to be on 11th, October 2024, at 5 p.m.
+2024-10-01 11:50:33,294 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 11:50:33,805 - __main__ - DEBUG - Transcription time: 0.5112795829772949 seconds
+2024-10-01 11:50:36,458 - __main__ - DEBUG - Response generation time: 2.6520814895629883 seconds
+2024-10-01 11:50:43,497 - __main__ - DEBUG - TTS generation time: 7.039792537689209 seconds
+2024-10-01 11:50:43,497 - __main__ - DEBUG - Handle transcription time: 9.691874027252197 seconds
+2024-10-01 11:50:43,497 - __main__ - DEBUG - Total process_speech time: 10.20382809638977 seconds
+2024-10-01 11:50:43,649 - __main__ - INFO - Received /stream_audio request for file: a135f2a0-ce5a-4535-9355-d68e420a72a2_response.mp3
+2024-10-01 11:51:15,797 - __main__ - INFO - Received /gather request
+2024-10-01 11:51:20,769 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:51:20,769 - __main__ - DEBUG - Speech received: Yeah.
+2024-10-01 11:51:20,769 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 11:51:21,278 - __main__ - DEBUG - Transcription time: 0.5086624622344971 seconds
+2024-10-01 11:51:24,578 - __main__ - DEBUG - Response generation time: 3.2997944355010986 seconds
+2024-10-01 11:51:27,662 - __main__ - DEBUG - TTS generation time: 3.0842807292938232 seconds
+2024-10-01 11:51:27,662 - __main__ - DEBUG - Handle transcription time: 6.384075164794922 seconds
+2024-10-01 11:51:27,662 - __main__ - DEBUG - Total process_speech time: 6.892737627029419 seconds
+2024-10-01 11:51:27,816 - __main__ - INFO - Received /stream_audio request for file: a135f2a0-ce5a-4535-9355-d68e420a72a2_response.mp3
+2024-10-01 11:51:39,859 - __main__ - INFO - Received /gather request
+2024-10-01 11:51:45,698 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:51:45,701 - __main__ - DEBUG - Speech received: No, thank you.
+2024-10-01 11:51:45,701 - __main__ - DEBUG - Speech recognition time: 0.0005447864532470703 seconds
+2024-10-01 11:51:46,204 - __main__ - DEBUG - Transcription time: 0.5022768974304199 seconds
+2024-10-01 11:51:47,393 - __main__ - DEBUG - Response generation time: 1.189136028289795 seconds
+2024-10-01 11:51:49,124 - __main__ - DEBUG - TTS generation time: 1.731199026107788 seconds
+2024-10-01 11:51:49,124 - __main__ - DEBUG - Handle transcription time: 2.920335054397583 seconds
+2024-10-01 11:51:49,124 - __main__ - DEBUG - Total process_speech time: 3.42315673828125 seconds
+2024-10-01 11:51:49,275 - __main__ - INFO - Received /stream_audio request for file: a135f2a0-ce5a-4535-9355-d68e420a72a2_response.mp3
+2024-10-01 11:51:54,914 - __main__ - INFO - Received /gather request
+2024-10-01 11:52:23,681 - __main__ - INFO - Received /voice request
+2024-10-01 11:52:23,681 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Albany Hindu Temple. How can I assist you today?
+2024-10-01 11:52:25,325 - __main__ - DEBUG - Initial message handling time: 1.6437311172485352 seconds
+2024-10-01 11:52:25,461 - __main__ - INFO - Received /stream_audio request for file: f63be87c-cf85-4ac7-8eb8-5ee44aa670fe_initial_message.mp3
+2024-10-01 11:52:29,936 - __main__ - INFO - Received /gather request
+2024-10-01 11:52:33,409 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:52:33,409 - __main__ - DEBUG - Speech received: Can you speak in Hindi?
+2024-10-01 11:52:33,409 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 11:52:33,913 - __main__ - DEBUG - Transcription time: 0.504340648651123 seconds
+2024-10-01 11:52:34,863 - __main__ - DEBUG - Response generation time: 0.9496536254882812 seconds
+2024-10-01 11:52:36,967 - __main__ - DEBUG - TTS generation time: 2.103900909423828 seconds
+2024-10-01 11:52:36,970 - __main__ - DEBUG - Handle transcription time: 3.0564606189727783 seconds
+2024-10-01 11:52:36,970 - __main__ - DEBUG - Total process_speech time: 3.5608012676239014 seconds
+2024-10-01 11:52:37,117 - __main__ - INFO - Received /stream_audio request for file: f63be87c-cf85-4ac7-8eb8-5ee44aa670fe_response.mp3
+2024-10-01 11:52:45,824 - __main__ - INFO - Received /gather request
+2024-10-01 11:52:50,506 - __main__ - INFO - Received /process_speech request
+2024-10-01 11:52:50,508 - __main__ - DEBUG - Speech received: Medical exposure booking Carnahan.
+2024-10-01 11:52:50,508 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 11:52:51,017 - __main__ - DEBUG - Transcription time: 0.5089943408966064 seconds
+2024-10-01 11:52:52,041 - __main__ - DEBUG - Response generation time: 1.0239207744598389 seconds
+2024-10-01 11:52:55,252 - __main__ - DEBUG - TTS generation time: 3.211693286895752 seconds
+2024-10-01 11:52:55,253 - __main__ - DEBUG - Handle transcription time: 4.236680746078491 seconds
+2024-10-01 11:52:55,254 - __main__ - DEBUG - Total process_speech time: 4.746156692504883 seconds
+2024-10-01 11:52:55,395 - __main__ - INFO - Received /stream_audio request for file: f63be87c-cf85-4ac7-8eb8-5ee44aa670fe_response.mp3
+2024-10-01 11:53:06,278 - __main__ - INFO - Received /gather request
+2024-10-01 12:53:01,525 - __main__ - INFO - Received /voice request
+2024-10-01 12:53:01,527 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Albany Hindu Temple. How can I assist you today?
+2024-10-01 12:53:03,181 - __main__ - DEBUG - Initial message handling time: 1.6550912857055664 seconds
+2024-10-01 12:53:03,321 - __main__ - INFO - Received /stream_audio request for file: 070d3614-3ce1-4017-a65b-8e1868ad98fd_initial_message.mp3
+2024-10-01 12:53:07,673 - __main__ - INFO - Received /gather request
+2024-10-01 12:53:11,469 - __main__ - INFO - Received /process_speech request
+2024-10-01 12:53:11,489 - __main__ - DEBUG - Speech received: Hey, can you speak in Hindi?
+2024-10-01 12:53:11,489 - __main__ - DEBUG - Speech recognition time: 0.0206298828125 seconds
+2024-10-01 12:53:12,002 - __main__ - DEBUG - Transcription time: 0.5129189491271973 seconds
+2024-10-01 12:53:12,832 - __main__ - DEBUG - Response generation time: 0.8301608562469482 seconds
+2024-10-01 12:53:14,866 - __main__ - DEBUG - TTS generation time: 2.0338494777679443 seconds
+2024-10-01 12:53:14,866 - __main__ - DEBUG - Handle transcription time: 2.8640103340148926 seconds
+2024-10-01 12:53:14,866 - __main__ - DEBUG - Total process_speech time: 3.39755916595459 seconds
+2024-10-01 12:53:15,011 - __main__ - INFO - Received /stream_audio request for file: 070d3614-3ce1-4017-a65b-8e1868ad98fd_response.mp3
+2024-10-01 12:53:19,929 - __main__ - INFO - Received /gather request
+2024-10-01 12:53:24,714 - __main__ - INFO - Received /process_speech request
+2024-10-01 12:53:24,714 - __main__ - DEBUG - Speech received: Medical exposure, booking confirmation.
+2024-10-01 12:53:24,714 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 12:53:25,220 - __main__ - DEBUG - Transcription time: 0.5065081119537354 seconds
+2024-10-01 12:53:26,379 - __main__ - DEBUG - Response generation time: 1.1585042476654053 seconds
+2024-10-01 12:53:28,984 - __main__ - DEBUG - TTS generation time: 2.6049933433532715 seconds
+2024-10-01 12:53:28,984 - __main__ - DEBUG - Handle transcription time: 3.7634975910186768 seconds
+2024-10-01 12:53:28,984 - __main__ - DEBUG - Total process_speech time: 4.270005702972412 seconds
+2024-10-01 12:53:29,138 - __main__ - INFO - Received /stream_audio request for file: 070d3614-3ce1-4017-a65b-8e1868ad98fd_response.mp3
+2024-10-01 12:53:35,322 - __main__ - INFO - Received /gather request
+2024-10-01 12:54:03,666 - __main__ - INFO - Received /voice request
+2024-10-01 12:54:03,666 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Albany Hindu Temple. How can I assist you today?
+2024-10-01 12:54:05,432 - __main__ - DEBUG - Initial message handling time: 1.7657277584075928 seconds
+2024-10-01 12:54:05,581 - __main__ - INFO - Received /stream_audio request for file: b4596a30-5ae3-4504-9fec-463544479c77_initial_message.mp3
+2024-10-01 12:54:09,842 - __main__ - INFO - Received /gather request
+2024-10-01 12:55:06,873 - __main__ - INFO - Received /voice request
+2024-10-01 12:55:06,874 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Albany Hindu Temple. How can I assist you today?
+2024-10-01 12:55:08,829 - __main__ - DEBUG - Initial message handling time: 1.9547960758209229 seconds
+2024-10-01 12:55:08,973 - __main__ - INFO - Received /stream_audio request for file: 74131b33-92e2-4d48-8490-3f98ad8b1d5a_initial_message.mp3
+2024-10-01 12:55:13,514 - __main__ - INFO - Received /gather request
+2024-10-01 12:55:16,871 - __main__ - INFO - Received /process_speech request
+2024-10-01 12:55:16,873 - __main__ - DEBUG - Speech received: Can you speak in Telugu?
+2024-10-01 12:55:16,873 - __main__ - DEBUG - Speech recognition time: 0.0022182464599609375 seconds
+2024-10-01 12:55:17,384 - __main__ - DEBUG - Transcription time: 0.5109312534332275 seconds
+2024-10-01 12:55:18,099 - __main__ - DEBUG - Response generation time: 0.7148454189300537 seconds
+2024-10-01 12:55:19,850 - __main__ - DEBUG - TTS generation time: 1.7509357929229736 seconds
+2024-10-01 12:55:19,850 - __main__ - DEBUG - Handle transcription time: 2.4657812118530273 seconds
+2024-10-01 12:55:19,850 - __main__ - DEBUG - Total process_speech time: 2.978930711746216 seconds
+2024-10-01 12:55:19,991 - __main__ - INFO - Received /stream_audio request for file: 74131b33-92e2-4d48-8490-3f98ad8b1d5a_response.mp3
+2024-10-01 12:55:23,408 - __main__ - INFO - Received /gather request
+2024-10-01 12:55:27,569 - __main__ - INFO - Received /process_speech request
+2024-10-01 12:55:27,569 - __main__ - DEBUG - Speech received: Can you speak in Tamil?
+2024-10-01 12:55:27,569 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 12:55:28,078 - __main__ - DEBUG - Transcription time: 0.5087807178497314 seconds
+2024-10-01 12:55:28,745 - __main__ - DEBUG - Response generation time: 0.6673896312713623 seconds
+2024-10-01 12:55:30,440 - __main__ - DEBUG - TTS generation time: 1.6942391395568848 seconds
+2024-10-01 12:55:30,440 - __main__ - DEBUG - Handle transcription time: 2.3620879650115967 seconds
+2024-10-01 12:55:30,440 - __main__ - DEBUG - Total process_speech time: 2.8713719844818115 seconds
+2024-10-01 12:55:30,579 - __main__ - INFO - Received /stream_audio request for file: 74131b33-92e2-4d48-8490-3f98ad8b1d5a_response.mp3
+2024-10-01 12:55:33,936 - __main__ - INFO - Received /gather request
+2024-10-01 12:57:13,713 - __main__ - INFO - Received /voice request
+2024-10-01 12:57:13,714 - __main__ - DEBUG - Initial message: Hello, I'm Neela from the Albany Hindu Temple. How can I assist you today?
+2024-10-01 12:57:16,004 - __main__ - DEBUG - Initial message handling time: 2.2895901203155518 seconds
+2024-10-01 12:57:16,180 - __main__ - INFO - Received /stream_audio request for file: 0042a300-8619-4bb6-8584-c276268b28d4_initial_message.mp3
+2024-10-01 12:57:20,686 - __main__ - INFO - Received /gather request
+2024-10-01 12:57:30,419 - __main__ - INFO - Received /process_speech request
+2024-10-01 12:57:30,419 - __main__ - DEBUG - Speech received: Can you help me?
+2024-10-01 12:57:30,419 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 12:57:30,928 - __main__ - DEBUG - Transcription time: 0.5090804100036621 seconds
+2024-10-01 12:57:31,664 - __main__ - DEBUG - Response generation time: 0.7365503311157227 seconds
+2024-10-01 12:57:33,507 - __main__ - DEBUG - TTS generation time: 1.8426945209503174 seconds
+2024-10-01 12:57:33,509 - __main__ - DEBUG - Handle transcription time: 2.5811846256256104 seconds
+2024-10-01 12:57:33,509 - __main__ - DEBUG - Total process_speech time: 3.0902650356292725 seconds
+2024-10-01 12:57:33,665 - __main__ - INFO - Received /stream_audio request for file: 0042a300-8619-4bb6-8584-c276268b28d4_response.mp3
+2024-10-01 12:57:39,741 - __main__ - INFO - Received /gather request
+2024-10-01 12:57:44,689 - __main__ - INFO - Received /process_speech request
+2024-10-01 12:57:44,689 - __main__ - DEBUG - Speech received: Turn on the temple timings tomorrow.
+2024-10-01 12:57:44,689 - __main__ - DEBUG - Speech recognition time: 0.0 seconds
+2024-10-01 12:57:45,195 - __main__ - DEBUG - Transcription time: 0.5058655738830566 seconds
+2024-10-01 12:57:46,516 - __main__ - DEBUG - Response generation time: 1.3205718994140625 seconds
+2024-10-01 12:57:49,255 - __main__ - DEBUG - TTS generation time: 2.73952317237854 seconds
+2024-10-01 12:57:49,256 - __main__ - DEBUG - Handle transcription time: 4.060598373413086 seconds
+2024-10-01 12:57:49,256 - __main__ - DEBUG - Total process_speech time: 4.566967248916626 seconds
+2024-10-01 12:57:49,391 - __main__ - INFO - Received /stream_audio request for file: 0042a300-8619-4bb6-8584-c276268b28d4_response.mp3
+2024-10-01 12:58:01,046 - __main__ - INFO - Received /gather request
