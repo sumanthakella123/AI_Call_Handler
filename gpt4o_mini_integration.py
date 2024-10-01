@@ -6,6 +6,37 @@ import re
 
 logger = logging.getLogger(__name__)
 
+function_definitions = [
+    {
+        "name": "book_puja",
+        "description": "Book a puja by collecting necessary details and scheduling it.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "puja_name": {
+                    "type": "string",
+                    "description": "The name of the puja to be performed."
+                },
+                "start_time": {
+                    "type": "string",
+                    "format": "date-time",
+                    "description": "The desired start time for the puja in ISO 8601 format."
+                },
+                "user_name": {
+                    "type": "string",
+                    "description": "The name of the person booking the puja."
+                },
+                "email": {
+                    "type": "string",
+                    "format": "email",
+                    "description": "The email address of the person booking the puja."
+                }
+            },
+            "required": ["puja_name", "start_time", "user_name", "phone_number", "location"]
+        }
+    }
+]
+
 def generate_response_with_context(prompt, conversation_history, context=""):
     headers = {
         "Content-Type": "application/json",
@@ -82,5 +113,21 @@ def generate_response_with_context(prompt, conversation_history, context=""):
     else:
         logger.error("Error: %s %s", response.status_code, response.text)
         return "I'm sorry, I'm experiencing some technical difficulties."
+
+def call_function(function_name, arguments):
+    if function_name == "book_puja":
+        booking_details = arguments
+        event_result = create_calendar_event(booking_details)
+
+        if event_result.get("success"):
+            # Format the start time nicely for the user
+            start_time_parsed = parse_future_date(booking_details['start_time'])
+            formatted_time = start_time_parsed.strftime("%A, %B %d, %Y at %I:%M %p")
+            return f"Puja booking confirmed for {booking_details['puja_name']} on {formatted_time} at {booking_details['location']}."
+        else:
+            return f"Error: {event_result.get('error')}"
+    else:
+        return "Function not implemented."
+
 
 
