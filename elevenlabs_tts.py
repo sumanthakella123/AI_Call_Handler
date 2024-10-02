@@ -17,10 +17,21 @@ def text_to_speech(text):
             "xi-api-key": api_key
         }
 
+        data = {
+            "text": text,
+            "model_id": "eleven_multilingual_v2",  # Specify the multilingual model
+            "voice_settings": {
+                "stability": 0.5,
+                "similarity_boost": 0.75
+            }
+        }
+
         response = requests.post(url, json=data, headers=headers)
         if response.status_code == 200:
             return response.content
-
+        else:
+            logger.error("Error in text_to_speech: %s %s", response.status_code, response.text)
+            return None
     except Exception as e:
         logger.error(f"Exception in text_to_speech: {str(e)}", exc_info=True)
         return None

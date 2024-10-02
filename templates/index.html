@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Dealership Call Handling System</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+</head>
+<body>
+    <h1>Welcome to Car Dealership Call Handling System</h1>
+    <input type="text" id="prompt" placeholder="Ask something...">
+    <button onclick="sendMessage()">Send</button>
+    <div id="response"></div>
+
+    <script>
+        const socket = io();
+
+        socket.on('connect', () => {
+            console.log('Connected to WebSocket');
+        });
+
+        socket.on('response', (data) => {
+            document.getElementById('response').innerText = data.data;
+        });
+
+        function sendMessage() {
+            const prompt = document.getElementById('prompt').value;
+            socket.emit('message', { prompt });
+        }
+    </script>
+</body>
+</html>
